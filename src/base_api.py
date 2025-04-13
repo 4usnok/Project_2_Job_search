@@ -7,8 +7,3 @@ class BaseApi(ABC):
     def __init__(self):
         """Абстрактный метод инициализации"""
         pass
-
-    @abstractmethod
-    def get_vacancies(self):
-        """Абстрактный метод получения вакансий"""
-        pass

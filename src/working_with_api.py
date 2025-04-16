@@ -2,7 +2,7 @@ from src.base_api import BaseApi
 import requests
 
 
-class ForWorkingWithApi(BaseApi):
+class WorkingWithApi(BaseApi):
     """
     Класс для работы с API HeadHunter
     Класс Parser является родительским классом, который вам необходимо реализовать
@@ -27,3 +27,5 @@ class ForWorkingWithApi(BaseApi):
                 self.vacancies.extend(vacancies)
                 self.__params['page'] += 1
         return self.__params
+
+print(WorkingWithApi())

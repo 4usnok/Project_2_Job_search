@@ -9,16 +9,11 @@ class BaseFiles(ABC):
         pass
 
     @abstractmethod
-    def __add__(self, other):
+    def created_new_file(self):
         """Абстрактный метод получения добавления данных в файл."""
         pass
 
     @abstractmethod
-    def criteria_data(self):
-        """Абстрактный метод получения данных из файла по указанным критериям"""
-        pass
-
-    @abstractmethod
-    def __del__(self):
+    def removal_of_vacancies(self):
         """Абстрактный метод удаления информации о вакансиях"""
         pass

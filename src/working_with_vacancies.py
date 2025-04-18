@@ -24,16 +24,6 @@ class ToWorkWithVacancies:
         self.__validate_comparison(other)
         return self.salary > other.salary
 
-    def __le__(self, other):
-        """Магический метод для оператора меньше либо равно <="""
-        self.__validate_comparison(other)
-        return self.salary <= other.salary
-
-    def __ge__(self, other):
-        """Магический метод для оператора больше либо равно >="""
-        self.__validate_comparison(other)
-        return self.salary >= other.salary
-
     def __validate_comparison(self, other):
         """Приватный метод валидации для сравнения.
         Проверяет:

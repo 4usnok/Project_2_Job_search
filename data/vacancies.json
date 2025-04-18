@@ -1,1 +1,1102 @@
-{"items":[{"id":"93353083","premium":false,"name":"Тестировщик комфорта квартир","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"26","name":"Воронеж","url":"https://api.hh.ru/areas/26"},"salary":{"from":350000,"to":450000,"currency":"RUR","gross":false},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-16T14:58:28+0300","created_at":"2024-02-16T14:58:28+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93353083","branding":{"type":"CONSTRUCTOR","tariff":"BASIC"},"show_logo_in_search":true,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93353083?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93353083","relations":[],"employer":{"id":"3499705","name":"Специализированный застройщик BM GROUP","url":"https://api.hh.ru/employers/3499705","alternate_url":"https://hh.ru/employer/3499705","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/1214854.png","240":"https://hhcdn.ru/employer-logo/6479866.png","90":"https://hhcdn.ru/employer-logo/6479865.png"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=3499705","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Занимать активную жизненную позицию, уметь активно танцевать и громко петь. Обладать навыками коммуникации, чтобы налаживать добрососедские отношения. Обладать системным мышлением...","responsibility":"Оценивать вид из окна: встречать рассветы на кухне, и провожать алые закаты в спальне. Оценивать инфраструктуру района: ежедневно ходить на..."},"contacts":null,"schedule":{"id":"flexible","name":"Гибкий график"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"107","name":"Руководитель проектов"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92223756","premium":false,"name":"Удаленный диспетчер чатов (в Яндекс)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"113","name":"Россия","url":"https://api.hh.ru/areas/113"},"salary":{"from":30000,"to":44000,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T17:37:04+0300","created_at":"2024-01-25T17:37:04+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92223756","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/92223756?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92223756","relations":[],"employer":{"id":"9498120","name":"Яндекс Команда для бизнеса","url":"https://api.hh.ru/employers/9498120","alternate_url":"https://hh.ru/employer/9498120","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/1121425.jpg","90":"https://hhcdn.ru/employer-logo/6106293.jpeg","240":"https://hhcdn.ru/employer-logo/6106294.jpeg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=9498120","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе...","responsibility":"Работать с клиентами или партнерами для решения разнообразных ситуаций. Совершать звонки по их обращениям и давать письменные ответы. "},"contacts":null,"schedule":{"id":"remote","name":"Удаленная работа"},"working_days":[],"working_time_intervals":[],"working_time_modes":[{"id":"start_after_sixteen","name":"Можно начинать работать после 16:00"}],"accept_temporary":false,"professional_roles":[{"id":"40","name":"Другое"}],"accept_incomplete_resumes":true,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92223870","premium":false,"name":"Удаленный специалист службы поддержки (в Яндекс)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"113","name":"Россия","url":"https://api.hh.ru/areas/113"},"salary":{"from":30000,"to":44000,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T17:39:01+0300","created_at":"2024-01-25T17:39:01+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92223870","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/92223870?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92223870","relations":[],"employer":{"id":"9498120","name":"Яндекс Команда для бизнеса","url":"https://api.hh.ru/employers/9498120","alternate_url":"https://hh.ru/employer/9498120","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/1121425.jpg","90":"https://hhcdn.ru/employer-logo/6106293.jpeg","240":"https://hhcdn.ru/employer-logo/6106294.jpeg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=9498120","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе...","responsibility":"Работать с клиентами или партнерами для решения разнообразных ситуаций. Совершать звонки по их обращениям и давать письменные ответы. "},"contacts":null,"schedule":{"id":"remote","name":"Удаленная работа"},"working_days":[],"working_time_intervals":[],"working_time_modes":[{"id":"start_after_sixteen","name":"Можно начинать работать после 16:00"}],"accept_temporary":false,"professional_roles":[{"id":"40","name":"Другое"}],"accept_incomplete_resumes":true,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92752367","premium":false,"name":"Менеджер по продажам недвижимости","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"159","name":"Астана","url":"https://api.hh.ru/areas/159"},"salary":{"from":500000,"to":1000000,"currency":"KZT","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-06T11:30:02+0300","created_at":"2024-02-06T11:30:02+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92752367","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/92752367?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92752367","relations":[],"employer":{"id":"1418491","name":"Витрина Недвижимости","url":"https://api.hh.ru/employers/1418491","alternate_url":"https://hh.ru/employer/1418491","logo_urls":{"240":"https://hhcdn.ru/employer-logo/2935217.jpeg","90":"https://hhcdn.ru/employer-logo/2935216.jpeg","original":"https://hhcdn.ru/employer-logo-original/623516.jpg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=1418491","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Отличные коммуникативные навыки, способность найти подход к каждому клиенту. Навыки проведения деловых переговоров. Наличие амбициозных целей и успешный опыт их...","responsibility":"Анализ рынка и объектов недвижимости. Предварительная оценка недвижимости. Подбор объектов недвижимости в интересах клиентов. Консультирование клиентов по купле-продаже объектов..."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"6","name":"Агент по недвижимости"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92223673","premium":false,"name":"Менеджер чатов, удалённо (в Яндекс)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"113","name":"Россия","url":"https://api.hh.ru/areas/113"},"salary":{"from":30000,"to":44000,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T17:34:32+0300","created_at":"2024-01-25T17:34:32+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92223673","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/92223673?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92223673","relations":[],"employer":{"id":"9498120","name":"Яндекс Команда для бизнеса","url":"https://api.hh.ru/employers/9498120","alternate_url":"https://hh.ru/employer/9498120","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/1121425.jpg","90":"https://hhcdn.ru/employer-logo/6106293.jpeg","240":"https://hhcdn.ru/employer-logo/6106294.jpeg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=9498120","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе...","responsibility":"Работать с клиентами или партнерами для решения разнообразных ситуаций. Совершать звонки по их обращениям и давать письменные ответы. "},"contacts":null,"schedule":{"id":"remote","name":"Удаленная работа"},"working_days":[],"working_time_intervals":[],"working_time_modes":[{"id":"start_after_sixteen","name":"Можно начинать работать после 16:00"}],"accept_temporary":false,"professional_roles":[{"id":"40","name":"Другое"}],"accept_incomplete_resumes":true,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93209001","premium":false,"name":"Бортпроводник","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"2759","name":"Ташкент","url":"https://api.hh.ru/areas/2759"},"salary":null,"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-14T12:32:06+0300","created_at":"2024-02-14T12:32:06+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93209001","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93209001?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93209001","relations":[],"employer":{"id":"4621904","name":"«MY FREIGHTER» LLC","url":"https://api.hh.ru/employers/4621904","alternate_url":"https://hh.ru/employer/4621904","logo_urls":{"90":"https://hhcdn.ru/employer-logo/3387665.png","240":"https://hhcdn.ru/employer-logo/3387666.png","original":"https://hhcdn.ru/employer-logo-original/736672.png"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=4621904","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Образование: среднее полное (11 классов), среднее специальное, высшее. Обязательное владение узбекским, русским и английским языками. Готовность работать согласно графику полетов. ","responsibility":"Обеспечение безопасности на борту. Встреча и размещение пассажиров на борту. Инструктаж перед взлетом. Организация питания пассажиров во время полета. "},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"159","name":"Бортпроводник"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92195003","premium":false,"name":"Наборщик текста/верстальщик","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"1002","name":"Минск","url":"https://api.hh.ru/areas/1002"},"salary":{"from":800,"to":null,"currency":"BYR","gross":false},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T11:58:58+0300","created_at":"2024-01-25T11:58:58+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92195003","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/92195003?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92195003","relations":[],"employer":{"id":"3814315","name":"ПроТекст","url":"https://api.hh.ru/employers/3814315","alternate_url":"https://hh.ru/employer/3814315","logo_urls":{"240":"https://hhcdn.ru/employer-logo/3116885.jpeg","90":"https://hhcdn.ru/employer-logo/3116884.jpeg","original":"https://hhcdn.ru/employer-logo-original/668938.jpg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=3814315","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"уверенное владение ПЭВМ (программы OCR - FineReader и аналоги, глубокое знание функций MS Word - Вставка, Макет, Конструктор таблиц). - возможность и готовность...","responsibility":"выполнение распознания документов в формате ,pdf, .jpg, .png на русском / английском языке, макетирование и форматирование в MS Word. - "},"contacts":null,"schedule":{"id":"remote","name":"Удаленная работа"},"working_days":[],"working_time_intervals":[{"id":"from_four_to_six_hours_in_a_day","name":"Можно работать сменами по 4–6 часов в день"}],"working_time_modes":[{"id":"start_after_sixteen","name":"Можно начинать работать после 16:00"}],"accept_temporary":false,"professional_roles":[{"id":"84","name":"Оператор ПК, оператор базы данных"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"part","name":"Частичная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93166058","premium":false,"name":"Менеджер по продажам (МЕРКАТОР)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"88","name":"Казань","url":"https://api.hh.ru/areas/88"},"salary":{"from":160000,"to":null,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":{"city":"Казань","street":"Приволжский район, жилой массив Отары, Дорожная улица","building":"1к10","lat":55.724135,"lng":49.098078,"description":null,"raw":"Казань, Приволжский район, жилой массив Отары, Дорожная улица, 1к10","metro":null,"metro_stations":[],"id":"15161689"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-13T19:21:57+0300","created_at":"2024-02-13T19:21:57+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93166058","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93166058?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93166058","relations":[],"employer":{"id":"1060821","name":"Рост Развитие Решение","url":"https://api.hh.ru/employers/1060821","alternate_url":"https://hh.ru/employer/1060821","logo_urls":{"90":"https://hhcdn.ru/employer-logo/874868.jpeg","240":"https://hhcdn.ru/employer-logo/874869.jpeg","original":"https://hhcdn.ru/employer-logo-original/85446.jpg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=1060821","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Опыт в продажах. Опыт работы с клиентами. Умение проводить переговоры. Мобильность.","responsibility":"Расширение клиентской базы. Проведение презентаций и переговоров. Заключение договоров. Отчетность в установленной форме."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"70","name":"Менеджер по продажам, менеджер по работе с клиентами"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"91178034","premium":false,"name":"Оператор call-центра","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"2759","name":"Ташкент","url":"https://api.hh.ru/areas/2759"},"salary":{"from":3500000,"to":20000000,"currency":"UZS","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T10:10:00+0300","created_at":"2024-01-25T10:10:00+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=91178034","insider_interview":null,"url":"https://api.hh.ru/vacancies/91178034?host=hh.ru","alternate_url":"https://hh.ru/vacancy/91178034","relations":[],"employer":{"id":"9522635","name":"IN-FIN-STROY INVEST","url":"https://api.hh.ru/employers/9522635","alternate_url":"https://hh.ru/employer/9522635","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=9522635","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Пожалуйста ознакомьтесь внимательно. Грамотная речь. Знание узбекского и русского языков. Отличное знание ПК. Коммуникабельность. Эмоциональная устойчивость. Вежливость, грамотность, любознательность, ответственность...","responsibility":"Прием и обработка входящих звонков и исходящих звонков. Консультирование клиентов по телефону. Предоставление клиентам информации о компании. Осуществление исходящих информационных..."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"83","name":"Оператор call-центра, специалист контактного центра"}],"accept_incomplete_resumes":true,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92818620","premium":false,"name":"Менеджер по работе с клиентами","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"159","name":"Астана","url":"https://api.hh.ru/areas/159"},"salary":{"from":418500,"to":1000000,"currency":"KZT","gross":true},"type":{"id":"open","name":"Открытая"},"address":{"city":"Астана","street":"улица Анет баба","building":"5","lat":51.133893,"lng":71.382854,"description":null,"raw":"Астана, улица Анет баба, 5","metro":null,"metro_stations":[],"id":"14393855"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-07T11:34:26+0300","created_at":"2024-02-07T11:34:26+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92818620","insider_interview":null,"url":"https://api.hh.ru/vacancies/92818620?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92818620","relations":[],"employer":{"id":"10013830","name":"Агентство Недвижимости Абажур","url":"https://api.hh.ru/employers/10013830","alternate_url":"https://hh.ru/employer/10013830","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=10013830","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Не важно есть опыт у тебя или нет, я могу точно сказать, что ты сможешь зарабатывать в этой сфере!!! ","responsibility":null},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"70","name":"Менеджер по продажам, менеджер по работе с клиентами"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93119114","premium":false,"name":"Стажер","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"2759","name":"Ташкент","url":"https://api.hh.ru/areas/2759"},"salary":{"from":2000000,"to":2000000,"currency":"UZS","gross":false},"type":{"id":"open","name":"Открытая"},"address":{"city":"Ташкент","street":"улица Мукими","building":"166","lat":41.295692,"lng":69.218247,"description":null,"raw":"Ташкент, улица Мукими, 166","metro":null,"metro_stations":[],"id":"5906580"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-13T08:39:43+0300","created_at":"2024-02-13T08:39:43+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93119114","insider_interview":null,"url":"https://api.hh.ru/vacancies/93119114?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93119114","relations":[],"employer":{"id":"3927191","name":"Научно информационный центр новых технологий при ГНК РУз","url":"https://api.hh.ru/employers/3927191","alternate_url":"https://hh.ru/employer/3927191","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=3927191","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Если вы , в том числе, студент по направлению IT или начинающий специалист, окончивший вуз, Вы можете принять участие в отборе...","responsibility":"Комплексная оценка будет проводиться в форме собеседования. Стажировка по направлениям Java-backend и Mobile разработчик (flutter). Участие в непосредственной работе..."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"96","name":"Программист, разработчик"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"probation","name":"Стажировка"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92405436","premium":false,"name":"Хозработник","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"2","name":"Санкт-Петербург","url":"https://api.hh.ru/areas/2"},"salary":{"from":65000,"to":70000,"currency":"RUR","gross":false},"type":{"id":"open","name":"Открытая"},"address":{"city":"Санкт-Петербург","street":"Бармалеева улица","building":"11","lat":59.964485,"lng":30.306571,"description":null,"raw":"Санкт-Петербург, Бармалеева улица, 11","metro":null,"metro_stations":[],"id":"11151437"},"response_url":null,"sort_point_distance":null,"published_at":"2024-01-30T12:59:55+0300","created_at":"2024-01-30T12:59:55+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92405436","insider_interview":null,"url":"https://api.hh.ru/vacancies/92405436?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92405436","relations":[],"employer":{"id":"3474160","name":"Нордстрой","url":"https://api.hh.ru/employers/3474160","alternate_url":"https://hh.ru/employer/3474160","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=3474160","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":null,"responsibility":"Cезонныe pаботы: убоpкa cнега, лиcтьев, кoшeниe травы, мытьe дoрoжек. Убoрка мусоpа. Прoтиpание пыли, уборка в бapбекю, в бecедке. "},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"32","name":"Дворник"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"87122346","premium":false,"name":"Продавец-консультант","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"1","name":"Москва","url":"https://api.hh.ru/areas/1"},"salary":{"from":70000,"to":110000,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-20T11:00:11+0300","created_at":"2024-02-20T11:00:11+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=87122346","branding":{"type":"MAKEUP","tariff":null},"show_logo_in_search":true,"insider_interview":null,"url":"https://api.hh.ru/vacancies/87122346?host=hh.ru","alternate_url":"https://hh.ru/vacancy/87122346","relations":[],"employer":{"id":"2524051","name":"Магазины Ароматный Мир формата food & wine","url":"https://api.hh.ru/employers/2524051","alternate_url":"https://hh.ru/employer/2524051","logo_urls":{"90":"https://hhcdn.ru/employer-logo/3752459.png","240":"https://hhcdn.ru/employer-logo/3752460.png","original":"https://hhcdn.ru/employer-logo-original/827894.png"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=2524051","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Опыт работы не требуется, мы всему научим! Опыт работы в сетевых розничных магазинах приветствуется.","responsibility":"Консультирование покупателей по ассортименту в магазине. Работа на современной и простой кассе. Выкладка продукции, оформление торгового зала рекламными материалами. "},"contacts":null,"schedule":{"id":"shift","name":"Сменный график"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"97","name":"Продавец-консультант, продавец-кассир"}],"accept_incomplete_resumes":true,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"77069438","premium":false,"name":"Менеджер по туризму","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"160","name":"Алматы","url":"https://api.hh.ru/areas/160"},"salary":{"from":180000,"to":200000,"currency":"KZT","gross":false},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-02T05:38:18+0300","created_at":"2024-02-02T05:38:18+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=77069438","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/77069438?host=hh.ru","alternate_url":"https://hh.ru/vacancy/77069438","relations":[],"employer":{"id":"686727","name":"NurAi & Co","url":"https://api.hh.ru/employers/686727","alternate_url":"https://hh.ru/employer/686727","logo_urls":{"240":"https://hhcdn.ru/employer-logo/1107573.png","90":"https://hhcdn.ru/employer-logo/1107572.png","original":"https://hhcdn.ru/employer-logo-original/152128.png"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=686727","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"умение урегулировать форс-мажорные ситуации. - умение работать в системе Битрикс для ведения процесса бронирования. Требования: - опыт работы в туризме обязателен. - ","responsibility":"консультирование клиентов по туристическим продуктам в офисе и по телефону. - обработка входящих заявок и ведение диалога с туристами. - "},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"40","name":"Другое"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"92210019","premium":false,"name":"Junior back-end developer","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"2759","name":"Ташкент","url":"https://api.hh.ru/areas/2759"},"salary":{"from":4000000,"to":8000000,"currency":"UZS","gross":true},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-01-25T14:24:55+0300","created_at":"2024-01-25T14:24:55+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=92210019","insider_interview":null,"url":"https://api.hh.ru/vacancies/92210019?host=hh.ru","alternate_url":"https://hh.ru/vacancy/92210019","relations":[],"employer":{"id":"9035038","name":"OOO UZGPS","url":"https://api.hh.ru/employers/9035038","alternate_url":"https://hh.ru/employer/9035038","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=9035038","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Высшее профильное образование. Свободное владение русским и узбекским языками. Java Core. Spring/Spring Boot. Знание ООП и структуры данных. ","responsibility":"Разрабатывать новые и поддерживать существующие продукты компании. Интегрировать сервисы и API. Написание микросервисов. Интеграции с внешними сервисами по REST, WebSocket. "},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"96","name":"Программист, разработчик"}],"accept_incomplete_resumes":false,"experience":{"id":"noExperience","name":"Нет опыта"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93523045","premium":false,"name":"Менеджер по сопровождению закупок (контрольно-измерительное оборудование)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"1","name":"Москва","url":"https://api.hh.ru/areas/1"},"salary":{"from":90000,"to":null,"currency":"RUR","gross":false},"type":{"id":"open","name":"Открытая"},"address":{"city":null,"street":null,"building":null,"lat":null,"lng":null,"description":null,"raw":null,"metro":{"station_name":"Полежаевская","line_name":"Таганско-Краснопресненская","station_id":"7.114","line_id":"7","lat":55.777201,"lng":37.517895},"metro_stations":[{"station_name":"Полежаевская","line_name":"Таганско-Краснопресненская","station_id":"7.114","line_id":"7","lat":55.777201,"lng":37.517895},{"station_name":"Хорошево","line_name":"МЦК","station_id":"95.539","line_id":"95","lat":55.777222,"lng":37.507222},{"station_name":"Хорошевская","line_name":"Большая кольцевая линия","station_id":"97.601","line_id":"97","lat":55.77643,"lng":37.51981}],"id":"14977439"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-20T11:07:12+0300","created_at":"2024-02-20T11:07:12+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93523045","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93523045?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93523045","relations":[],"employer":{"id":"827187","name":"BY business group","url":"https://api.hh.ru/employers/827187","alternate_url":"https://hh.ru/employer/827187","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/942457.jpg","240":"https://hhcdn.ru/employer-logo/4210365.jpeg","90":"https://hhcdn.ru/employer-logo/4210364.jpeg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=827187","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Высшее или средне-специальное образование. Опыт работы на позиции менеджер по закупкам от 3 лет. Знание программы 1С (Управление...","responsibility":"Получать и обрабатывать заявки. Обеспечивать своевременные поставки ТМЦ Заказчикам (закупка оборудования КИПиА и комплектующих). Контролировать поставки и своевременное выполнение обязанностей..."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"66","name":"Менеджер по закупкам"}],"accept_incomplete_resumes":true,"experience":{"id":"between3And6","name":"От 3 до 6 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93514566","premium":false,"name":"Водитель-помощник","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"159","name":"Астана","url":"https://api.hh.ru/areas/159"},"salary":{"from":300000,"to":null,"currency":"KZT","gross":false},"type":{"id":"open","name":"Открытая"},"address":{"city":"Астана","street":"улица Сауран","building":"3","lat":51.125657,"lng":71.421976,"description":null,"raw":"Астана, улица Сауран, 3","metro":null,"metro_stations":[],"id":"816768"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-20T09:52:02+0300","created_at":"2024-02-20T09:52:02+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93514566","insider_interview":null,"url":"https://api.hh.ru/vacancies/93514566?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93514566","relations":[],"employer":{"id":"2842834","name":"SNK CONSULT GROUP","url":"https://api.hh.ru/employers/2842834","alternate_url":"https://hh.ru/employer/2842834","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=2842834","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Знание английского языка (B2). Хорошие знание города ПДД. Готовность к командировкам, в том числе за границу. Пунктуальность. ","responsibility":"Мелкосрочный ремонт авто."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"21","name":"Водитель"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93254580","premium":false,"name":"Машинист буровой установки RU-75","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"102","name":"Хабаровск","url":"https://api.hh.ru/areas/102"},"salary":{"from":228000,"to":228000,"currency":"RUR","gross":false},"type":{"id":"open","name":"Открытая"},"address":{"city":"Хабаровск","street":"улица Истомина","building":"51А","lat":48.474997,"lng":135.058846,"description":null,"raw":"Хабаровск, улица Истомина, 51А","metro":null,"metro_stations":[],"id":"4898993"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-15T08:00:54+0300","created_at":"2024-02-15T08:00:54+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93254580","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93254580?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93254580","relations":[],"employer":{"id":"4987434","name":"Охотская Горно-Геологическая Компания","url":"https://api.hh.ru/employers/4987434","alternate_url":"https://hh.ru/employer/4987434","logo_urls":{"original":"https://hhcdn.ru/employer-logo-original/944456.jpg","240":"https://hhcdn.ru/employer-logo/4218361.jpeg","90":"https://hhcdn.ru/employer-logo/4218360.jpeg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=4987434","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Квалификационное удостоверение машиниста буровой установки 5 разряда. Опыт работы на буровой установки RU-75., LM-75. Проведение текущих аварийных и...","responsibility":"Бурение из буровых камер. Бурение согласно ГТН, умение подобрать породоразрушающий инструмент, монтаж на устье скважины."},"contacts":null,"schedule":{"id":"flyInFlyOut","name":"Вахтовый метод"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"63","name":"Машинист"}],"accept_incomplete_resumes":true,"experience":{"id":"between3And6","name":"От 3 до 6 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93545071","premium":false,"name":"Семейный водитель","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"1","name":"Москва","url":"https://api.hh.ru/areas/1"},"salary":{"from":120000,"to":120000,"currency":"RUR","gross":false},"type":{"id":"open","name":"Открытая"},"address":null,"response_url":null,"sort_point_distance":null,"published_at":"2024-02-20T14:19:36+0300","created_at":"2024-02-20T14:19:36+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93545071","insider_interview":null,"url":"https://api.hh.ru/vacancies/93545071?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93545071","relations":[],"employer":{"id":"2021156","name":"ТТО АМИК","url":"https://api.hh.ru/employers/2021156","alternate_url":"https://hh.ru/employer/2021156","logo_urls":null,"vacancies_url":"https://api.hh.ru/vacancies?employer_id=2021156","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"опыт работы профессиональным водителем от 10 лет, семейным водителем - от 5 лет. - наличие рекомендательных писем (обязательно). - спокойное,комфортное и безопасное...","responsibility":"работа в качестве семейного водителя. - подача автомобиля по указанному месту в обозначенное время. - планирование оптимального маршрута движения. - выполнение поручений профессионального..."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"21","name":"Водитель"}],"accept_incomplete_resumes":true,"experience":{"id":"moreThan6","name":"Более 6 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null},{"id":"93161709","premium":false,"name":"Менеджер по работе с клиентами (МЕРКАТОР)","department":null,"has_test":false,"response_letter_required":false,"area":{"id":"88","name":"Казань","url":"https://api.hh.ru/areas/88"},"salary":{"from":100000,"to":null,"currency":"RUR","gross":true},"type":{"id":"open","name":"Открытая"},"address":{"city":"Казань","street":"Приволжский район, жилой массив Отары, Дорожная улица","building":"1к10","lat":55.724135,"lng":49.098078,"description":null,"raw":"Казань, Приволжский район, жилой массив Отары, Дорожная улица, 1к10","metro":null,"metro_stations":[],"id":"15161689"},"response_url":null,"sort_point_distance":null,"published_at":"2024-02-13T17:06:04+0300","created_at":"2024-02-13T17:06:04+0300","archived":false,"apply_alternate_url":"https://hh.ru/applicant/vacancy_response?vacancyId=93161709","show_logo_in_search":null,"insider_interview":null,"url":"https://api.hh.ru/vacancies/93161709?host=hh.ru","alternate_url":"https://hh.ru/vacancy/93161709","relations":[],"employer":{"id":"1060821","name":"Рост Развитие Решение","url":"https://api.hh.ru/employers/1060821","alternate_url":"https://hh.ru/employer/1060821","logo_urls":{"90":"https://hhcdn.ru/employer-logo/874868.jpeg","240":"https://hhcdn.ru/employer-logo/874869.jpeg","original":"https://hhcdn.ru/employer-logo-original/85446.jpg"},"vacancies_url":"https://api.hh.ru/vacancies?employer_id=1060821","accredited_it_employer":false,"trusted":true},"snippet":{"requirement":"Опыт в продажах или с клиентами. Грамотная речь. Активность. Коммуникабельность.","responsibility":"Работа с клиентами. Контроль остатков инструмента на складе. Работа с дебиторской задолженностью. Отчетность в установленной форме (1С, Битрикс 24)."},"contacts":null,"schedule":{"id":"fullDay","name":"Полный день"},"working_days":[],"working_time_intervals":[],"working_time_modes":[],"accept_temporary":false,"professional_roles":[{"id":"70","name":"Менеджер по продажам, менеджер по работе с клиентами"}],"accept_incomplete_resumes":false,"experience":{"id":"between1And3","name":"От 1 года до 3 лет"},"employment":{"id":"full","name":"Полная занятость"},"adv_response_url":null,"is_adv_vacancy":false,"adv_context":null}],"found":1438900,"pages":100,"page":0,"per_page":20,"clusters":null,"arguments":null,"fixes":null,"suggests":null,"alternate_url":"https://hh.ru/search/vacancy?enable_snippets=true"}
+[
+    {
+        "name": "Менеджер по работе с клиентами",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах. Развитые коммуникативные навыки. Знание документооборота. Активность, замотивированность, ориентированность на клиента. Умение вести переговоры на разных уровнях..."
+    },
+    {
+        "name": "Менеджер по продажам (В2В)",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах. Опыт холодных звонков. Навыки ведения переговоров. Готовы рассмотреть с минимальным опытом,но с огромным желанием развиваться..."
+    },
+    {
+        "name": "Менеджер проектов по внедрению Битрикс24",
+        "salary": 0,
+        "requirements": null
+    },
+    {
+        "name": "Клиентский менеджер отделения банка",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Менеджер отдела продаж",
+        "salary": 0,
+        "requirements": "Умение работать с CRM-системами. Ответственность. Cтрессоустойчивость. Коммуникабельность. Инициативность и активность. Профессиональные навыки: Опыт в сфере маркетинговой активности. "
+    },
+    {
+        "name": "Менеджер выездного сервиса",
+        "salary": 0,
+        "requirements": null
+    },
+    {
+        "name": "Менеджер по продажам недвижимости",
+        "salary": 0,
+        "requirements": "Пунктуальность. Вежливость, воспитанность, адекватность. Знание узбекского и русского языка. Грамотность, чистоплотность. Умение делать звонки, работать в команде. Дружелюбность ,открытость, позитив."
+    },
+    {
+        "name": "Специалист чат поддержки/Клиентский менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы в поддержке клиентов. Отличные письменные навыки коммуникации и выстраивания отношений с клиентами. Грамотный русский язык. Умение сглаживать конфликтные..."
+    },
+    {
+        "name": "Старший менеджер по работе с клиентами (Центр)",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Доброжелателен и готов помогать клиентам. Активно используешь гаджеты и программы MS Office."
+    },
+    {
+        "name": "Менеджер подбора водителей в автопарк (офис)",
+        "salary": 0,
+        "requirements": "Опыт в таксопарке от 1 года. Опыт в массовом подборе. Навыки работы в CRM программах (AMO или BITRIX). "
+    },
+    {
+        "name": "Менеджер по продажам (без поиска клиентов)",
+        "salary": 0,
+        "requirements": "Карьерный рост при наличии управленческих амбиций, целеустремленности и хороших результатов."
+    },
+    {
+        "name": "Менеджер по продажам и работе с клиентами (без поиска)",
+        "salary": 0,
+        "requirements": "Навык консультаций по телефону. Навык проведения презентаций. Профессионализм и отвага - ваши сильные стороны. Общительность и жизнерадостность будет вашим преимуществом."
+    },
+    {
+        "name": "Менеджер по оптовым продажам",
+        "salary": 0,
+        "requirements": "Уверенное пользование ПК. Проактивная позиция по отношению к выполнению рабочих задач. Опыт самостоятельных продаж. Знание законодательства РФ в области конкурсных..."
+    },
+    {
+        "name": "Клиентский менеджер, удаленно",
+        "salary": 0,
+        "requirements": "Специалист со средним образованием и выше. Грамотно пишешь и говоришь."
+    },
+    {
+        "name": "Ведущий менеджер по работе с ключевыми клиентами",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы в продажах или развитии продаж от 2-х лет, желательно в канале ключевых клиентов, в FMCG..."
+    },
+    {
+        "name": "Старший клиентский менеджер",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Менеджер по закупкам",
+        "salary": 0,
+        "requirements": "Высшее образование. - Опыт работы в закупках от 2х лет (производство). - Уверенный пользователь ПК. - Знание MS Office, 1С Предприятие. - "
+    },
+    {
+        "name": "Руководитель направления по экологии / Менеджер по экологии",
+        "salary": 0,
+        "requirements": "Образование: высшее профессиональное образование по специальности охрана окружающей среды и рациональное использование природных ресурсов. Опыт: не менее 5 лет. "
+    },
+    {
+        "name": "Удаленный менеджер в IT компанию (без поиска)",
+        "salary": 0,
+        "requirements": "ВАЖНО: РАССМАТРИВАЕМ КАНДИДАТОВ С ОПЫТОМ ОТ 3-Х МЕСЯЦЕВ.  Наличие ПК и стабильного интернета.  Грамотная устная и письменная речь.  "
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "Презентабельный внешний вид. Умение вести переговоры. Положительные рекомендации будут вашим плюсом."
+    },
+    {
+        "name": "Старший менеджер по работе с ключевыми клиентами",
+        "salary": 0,
+        "requirements": "Специалист с высшим образованием. Имеешь опыт работы в сфере продаж банковских или финансовых продуктов корпоративным клиентам. Имеешь опыт проведения переговоров..."
+    },
+    {
+        "name": "Менеджер по продажам логистических услуг",
+        "salary": 0,
+        "requirements": "Опыт в сфере транспорта и логистики (будет преимуществом). Холодные звонки. Умение и желание продавать. Планировать свою работу. Грамотная речь. "
+    },
+    {
+        "name": "Менеджер по подбору персонала",
+        "salary": 0,
+        "requirements": "Опыт работы в подборе персонала от 2 лет. - Знание современных методов поиска и привлечения кандидатов. - Навыки проведения интервью и оценки..."
+    },
+    {
+        "name": "Finance Lead / Финансовый менеджер",
+        "salary": 0,
+        "requirements": "Higher education in finance. At least 6 years of experience as a financial manager or financial business partner in FMCG..."
+    },
+    {
+        "name": "Менеджер по продажам услуг",
+        "salary": 0,
+        "requirements": "Необходимо иметь отличную успеваемость в школе, желателен опыт работы в продажах. Коммуникабельность. Обучаемость. Мобильность. Желательно, хороший уровень английского."
+    },
+    {
+        "name": "Менеджер на выписку документов",
+        "salary": 0,
+        "requirements": "Знание 1С:Склад. ПК - уверенный пользователь."
+    },
+    {
+        "name": "Старший клиентский менеджер (Комендантский проспект)",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Старший менеджер по обслуживанию",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Территориальный менеджер (Краснодарский край, Республика Крым)",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы региональным представителем, супервайзером (или аналогичной должности) в крупных компаниях от 3 лет. Успешный опыт развития продаж..."
+    },
+    {
+        "name": "Клиентский менеджер отделения банка",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Менеджер ОТ, ТБ, ООС и КК",
+        "salary": 0,
+        "requirements": "Свободное владение казахским, англ.языком. Опыт работы в ТБ не менее 5 лет."
+    },
+    {
+        "name": "HR Менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы в HR от 3 до 6 лет. Умение эффективно управлять процессами подбора и адаптации персонала. Навыки проведения профессионального..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы в роли офис-менеджера или помощника будет преимуществом. Знание социальных сетей, особенно Instagram, и умение работать с актуальными..."
+    },
+    {
+        "name": "Менеджер по закупкам в КНР",
+        "salary": 0,
+        "requirements": "Высшее иностранные языки (Китайский), техническое или экономическое. Опыт проживания на территории КНР, работа в коммерческих организациях КНР. (продажи, экспорт в..."
+    },
+    {
+        "name": "Менеджер по закупкам (бренд-менеджер)",
+        "salary": 0,
+        "requirements": "Опыт работы в сфере закупок тканей или фурнитуры (либо смежные категории) с зарубежными поставщиками; знание особенностей импорта из Китая, Турции..."
+    },
+    {
+        "name": "Персональный менеджер Сбер Премьер",
+        "salary": 0,
+        "requirements": "Высшее образование в сфере финансов, экономики или банки. Опыт работы в финансово-банковском или страховом секторе от 1 года. "
+    },
+    {
+        "name": "Территориальный менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах в секторе товаров повседневного спроса (FMCG). Опыт построения дистрибуции, постановки задач, оценки эффективности работы партнеров. "
+    },
+    {
+        "name": "Офис-менеджер в автосалон BYD YASHNOBOD",
+        "salary": 0,
+        "requirements": "Опыт работы на аналогичной позиции будет преимуществом. Отличные коммуникативные навыки и умение работать с клиентами. Уверенное владение ПК (MS Office..."
+    },
+    {
+        "name": "Менеджер по работе с клиентами со знанием русского языка",
+        "salary": 0,
+        "requirements": "Желание расти и развиваться. - Умение работать в команде. - Грамотное владение русским языком. - Высокие комуникативные навыки. - Сознательность, пунктуальность, ответственность. - "
+    },
+    {
+        "name": "Ассистент офис-менеджера",
+        "salary": 0,
+        "requirements": "Законченное высшее\\среднее специальное образование. Приветствуется опыт работы. Владение пакетом Microsoft Office Word, Excel (базово). Знание офисной оргтехники."
+    },
+    {
+        "name": "Менеджер по продажам (Удаленно)",
+        "salary": 0,
+        "requirements": "Я не разбираюсь в интеллектуальных правах. Главное, чтобы у вас все было хорошо с общими профессиональными навыками: ответственность, пунктуальность, аккуратность..."
+    },
+    {
+        "name": "Менеджер, менеджер по продажам",
+        "salary": 0,
+        "requirements": "Ответственный. Умеющий грамотно излагать свои мысли . Позитивный, с огнем в глазах. Опыт в продажах будет преимуществом, но мы также готовы..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Поддерживать порядок и атмосферу доброжелательности в офисе. Умение общаться по телефону: доброжелательно, уверенно, без давления. Опыт в продажах, кол-центре..."
+    },
+    {
+        "name": "Менеджер по маркетингу и рекламе",
+        "salary": 0,
+        "requirements": "Образование: Высшее (маркетинг, экономика). Опыт работы (профессиональный/должностной): не менее 5 лет опыта работы в операционном маркетинге и рекламе. "
+    },
+    {
+        "name": "Территориальный менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Успешный опыт работы в FMCG компаниях на позиции территориальный менеджер не менее 2 лет. Активная жизненная позиция, трудолюбие..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "Опыт работы менеджером по продажам приветствуется. Навыки продаж и умение работать с клиентами. Отличные коммуникативные и организационные навыки. "
+    },
+    {
+        "name": "Проектный менеджер (Креативный департамент)",
+        "salary": 0,
+        "requirements": "Высшее образование (преимущественно по направлению «Управление проектами». «Менеджмент»). Опыт работы на аналогичной должности. Опыт работы с дизайнерами приветствуется. "
+    },
+    {
+        "name": "SMM-менеджер (junior+ / middle)",
+        "salary": 0,
+        "requirements": "Опыт работы в сфере SMM от 1 года, предпочтительно в fashion, lifestyle или креативных индустриях. Уверенное владение инструментами соцсетей и..."
+    },
+    {
+        "name": "Менеджер по продажам (выдающий)",
+        "salary": 0,
+        "requirements": "Образование н/высшее, средне-специальное, высшее. Опыт работы на аналогичной должности не менее 1 года как преимущество. Желание зарабатывать. "
+    },
+    {
+        "name": "Старший менеджер по работе с ключевыми клиентами малого бизнеса",
+        "salary": 0,
+        "requirements": "Специалист с высшим образованием. Имеешь опыт работы в сфере продаж банковских или финансовых продуктов корпоративным клиентам. Имеешь опыт проведения переговоров..."
+    },
+    {
+        "name": "Менеджер по продажам «Калита-Финанс»",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах от 3 лет (будет преимуществом работа в банках и ювелирных компаниях). Уверенный пользователь ПК. "
+    },
+    {
+        "name": "Территориальный менеджер (Нижний Новгород)",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы региональным представителем, супервайзером (или аналогичной должности) в крупных компаниях от 3 лет. Успешный опыт развития продаж..."
+    },
+    {
+        "name": "Проектный менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы в роли проектного менеджера от 3-х лет. Опыт работы с проектами автоматизации юридических процессов или..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Ответственность, чистоплотность, организаторские навыки. Навыки в поиске и приобретении Авиа / ЖД билетов повышенной комфортности. Опытный пользователь ПК, интернет-браузеров и..."
+    },
+    {
+        "name": "Менеджер зала (м. Динамо)",
+        "salary": 0,
+        "requirements": "Желание работать и развиваться (опыт работы не требуется). Хорошие коммуникативные навыки. Ответственность, трудолюбие, позитивный настрой."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Ответственность, аккуратность, пунктуальность. Исполнительность. Знание ПК, офисной техники, офисных программ. Умение работать на гос.порталах. Хорошая скорость печати. Грамотная устная и..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "У тебя есть средне-специальное или высшее техническое или экономическое образование. Ты владеешь Пакетом MS Office на уровне уверенного пользователя. "
+    },
+    {
+        "name": "Менеджер по продажам B2B",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах B2B/B2C будет преимуществом. Навыки активных продаж и поиска новых клиентов. "
+    },
+    {
+        "name": "Менеджер по закупкам и тендерам",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы в закупках от 1 года (возможно студенты последнего курса экономических ВУЗов). Владение Excel на уровне построения..."
+    },
+    {
+        "name": "Менеджер по продажам промышленного оборудования",
+        "salary": 0,
+        "requirements": "Опыт продаж промышленного или технологического оборудования на рынке B2B/B2G (опыт работы на рынке компонентов и..."
+    },
+    {
+        "name": "Старший клиентский менеджер (ЮГ)",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "Что ты будешь делать? Вести клиента в CRM-системе — порядок важен. У тебя грамотная речь, ты легко находишь общий язык..."
+    },
+    {
+        "name": "Менеджер по сервису",
+        "salary": 0,
+        "requirements": "Специалист со средним или высшим профессиональным образованием. Уверенный пользователь Excel. Навыки подготовки аналитических отчетов и презентаций. Личные качества: ответственность, аналитические..."
+    },
+    {
+        "name": "Менеджер по персоналу / HR manager",
+        "salary": 0,
+        "requirements": "Высшее образование. Компьютерная грамотность. Развитые коммуникативные навыки, активная жизненная позиция. Аккуратность, внимательность. Опыт работы в HR менеджменте от 1 года. "
+    },
+    {
+        "name": "Менеджер по работе с ключевыми клиентами малого бизнеса",
+        "salary": 0,
+        "requirements": "Специалист с высшим или неполным высшим образованием. Имеешь опыт работы в сфере продаж корпоративным клиентам или банковских продуктов физ. "
+    },
+    {
+        "name": "Менеджер по оптовым продажам",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах от 1 до 3 лет. Большим преимуществом будет знание рынка мобильной электроники и товаров повседневного спроса. "
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "Опыт продаж приветствуется. Опыт в сегменте стройки как преимущество. Организованность. Грамотная речь. Коммуникабельность."
+    },
+    {
+        "name": "Директор розничной сети/Ритейл менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы на руководящих позициях в fashion retail не менее 5 лет. Навыки стратегического, оперативного планирования и комплексного..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Активность, инициативность, мобильность, стрессоустойчивость и доброжелательность. Опыт работы в должности офис-менеджера или администратора приветствуется, но не обязателен. "
+    },
+    {
+        "name": "Менеджер по логистике",
+        "salary": 0,
+        "requirements": "Уверенный пользователь ПК (MS Word, Excel, 1С). Высокая скорость работы, внимание к деталям, ответственность. Готовность к работе в режиме..."
+    },
+    {
+        "name": "Финансовый менеджер (по работе с кредитным портфелем ГК)",
+        "salary": 0,
+        "requirements": "Высшее финансово-экономическое образование. Опыт работы не менее 3 лет с кредитными учреждениями. Хорошее знание бухгалтерского учета (план счетов, основные..."
+    },
+    {
+        "name": "Менеджер департамента администрирования обучения",
+        "salary": 0,
+        "requirements": "Высшее (или послевузовское) образование в профильных областях: экономика и/или юриспруденция и/или педагогика и/или менеджмент или смежных областях. "
+    },
+    {
+        "name": "Менеджер по маркетинговым коммуникациям",
+        "salary": 0,
+        "requirements": "Опыт работы в маркетинговых коммуникациях от 3 лет. Знание принципов разработки коммуникационных стратегий и креативных концепций. Опыт работы с агентствами..."
+    },
+    {
+        "name": "Старший клиентский менеджер",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "Менеджер по продажам B2B",
+        "salary": 0,
+        "requirements": "Желание развиваться и зарабатывать. Опыт работы будет вашим преимуществом, но необязателен. Грамотная устная и письменная речь. Личное обаяние и способность..."
+    },
+    {
+        "name": "Менеджер приему заявок (Брендирование пленками)/Менеджер по работе с клиентами",
+        "salary": 0,
+        "requirements": "Опыт работы с пленками в рекламном агентстве или на печатном производстве с пленками будет хорошим плюсом. Участие в рекламных проектах..."
+    },
+    {
+        "name": "Риск-менеджер",
+        "salary": 0,
+        "requirements": "Готовность к обучению. Технически-аналитический склад ума. Готовность активно работать и включаться в процессы. Преимуществом будет: Пониманием фрода на повседневном..."
+    },
+    {
+        "name": "Персональный менеджер Сбер Премьер",
+        "salary": 0,
+        "requirements": "Высшее образование в сфере финансов, экономики или банки. Опыт работы в финансово-банковском или страховом секторе от 1 года. "
+    },
+    {
+        "name": "Менеджер по продажам в Департамент страхования грузов",
+        "salary": 0,
+        "requirements": "Хорошие коммуникативные навыки общения по телефону. Опыт в продажах желателен. Грамотная письменная и устная речь. Желание развиваться в продажах. Коммуникабельность. "
+    },
+    {
+        "name": "Ведущий менеджер по продажам",
+        "salary": 0,
+        "requirements": "Более 5 лет успешного опыта работы на позиции ведущего менеджера по продажам, опыт эффективного управления процессом продаж и достижения поставленных..."
+    },
+    {
+        "name": "Менеджер по продажам B2B",
+        "salary": 0,
+        "requirements": "Высшее образование/неоконченное высшее образование. Опыт работы в сфере B2B продаж от 1 года. Уверенный пользователь ПК, опыт..."
+    },
+    {
+        "name": "Региональный менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы от 1 года в аналогичной должности по Федеральным сетям (рынок FMCG как преимущество). Уверенный пользователь ПК (Word, Excel..."
+    },
+    {
+        "name": "Дивизиональный менеджер по продажам",
+        "salary": 0,
+        "requirements": "Высшее образование. Опыт работы в FMCG - обязательно. Опыт эффективного управления командой от 3 лет (уровнем супервайзеров/территориальных менеджеров). "
+    },
+    {
+        "name": "Менеджер по работе с клиентами (ВЭД)",
+        "salary": 0,
+        "requirements": "Высшее образование (без специализации), знание английского языка. Опыт работы в обслуживании клиентов. Опыт работы в call-центре будет преимуществом. "
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Умение работать с документацией, офисной оргтехникой, ПК. Грамотная устная и письменная речь. Умение работать в режиме многозадачности, стрессоустойчивость. "
+    },
+    {
+        "name": "Менеджер по развитию малого бизнеса",
+        "salary": 0,
+        "requirements": "Получил высшее или неполное высшее образование. Понимаешь принцип работы банковских продуктов для юридических лиц. Имеешь опыт работы в корпоративных продажах..."
+    },
+    {
+        "name": "Бренд-менеджер (игрушки)",
+        "salary": 0,
+        "requirements": "Опыт аналогичной работы от 2-х лет. Опыт успешного вывода на рынок новых брендов/продуктов. Умение планировать рекламные кампании в..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Стаж работы на аналогичных должностях не менее 1 года. Отличное владение программами 1С, 1C ERP, MS..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 0,
+        "requirements": "Ответственность, пунктуальность и исполнительность. Нацеленность на результат, желание работать и зарабатывать. Хорошие коммуникативные навыки (грамотная речь, умение четко формулировать мысль). "
+    },
+    {
+        "name": "Менеджер по прокату автомобилей",
+        "salary": 0,
+        "requirements": "Опыт работы в сфере сервиса, продаж или управления не менее 1 года (опыт в автосфере будет плюсом). Понимание основ работы..."
+    },
+    {
+        "name": "Менеджер по закупкам растений",
+        "salary": 0,
+        "requirements": "С аналитическим складом ума и умением быстро оценивать рыночную ситуацию. Готовый работать на результат, а не просто выполнять задачи. "
+    },
+    {
+        "name": "КАМ/Менеджер по продажам (оборудование в ритейл, без поиска)",
+        "salary": 0,
+        "requirements": "Опыт В2В продаж оборудования. Уверенные коммуникативные навыки и ориентация на результат. Опыт продаж оборудования торговым сетям или оснащение..."
+    },
+    {
+        "name": "Региональный менеджер",
+        "salary": 0,
+        "requirements": null
+    },
+    {
+        "name": "Территориальный менеджер по продажам, Узбекистан, г. Наманган (Ферганская долина)",
+        "salary": 0,
+        "requirements": "Опыт работы в продажах FMCG от 5 лет. Отличные навыки ведения переговоров, презентации и коммуникации. Высокий уровень коммуникативных навыков (как..."
+    },
+    {
+        "name": "Тренинг-менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы от 3х лет. Опыт самостоятельной разработки программ обучения и развития. Владение методологией проведения тренингов."
+    },
+    {
+        "name": "Территориальный менеджер",
+        "salary": 0,
+        "requirements": "Высшего образования (техническое). Опыта проектных и дистрибьюционных продаж от 5 лет. Опыта управления командой, наставничества от 3 лет. "
+    },
+    {
+        "name": "SMM-менеджер (Telegram)",
+        "salary": 0,
+        "requirements": "Опыт работы 1-3 года. Наличие портфолио со ссылками на созданный контент. Самостоятельность и автономный подход к управлению проектами. "
+    },
+    {
+        "name": "Менеджер по персоналу",
+        "salary": 0,
+        "requirements": "Высшее экономическое, юридическое образование, опыт работы по направлению не менее 2-х лет. Знание кадрового делопроизводства, трудового и гражданского законодательства. "
+    },
+    {
+        "name": "Менеджер проектных продаж",
+        "salary": 0,
+        "requirements": "Опыт активных продаж от 1 года в B2B. Коммуникабельность, уверенность в себе, стрессоустойчивость, ответственность, нацеленность на результат, желание..."
+    },
+    {
+        "name": "Региональный менеджер по продажам хирургического шовного материала",
+        "salary": 0,
+        "requirements": "Рассмотрим кандидатов с опытом в медицине и без. Опыт работы медицинским представителем и наличие клиентской базы будет являться преимуществом, но..."
+    },
+    {
+        "name": "Администратор / Ресепшен-менеджер в офис",
+        "salary": 0,
+        "requirements": "опрятный внешний вид. - Грамотная устная и письменная речь на русском и казахском языках. - Уверенное владение ПК (Word, Excel, Outlook). - "
+    },
+    {
+        "name": "Talent Partner / Менеджер по талантам",
+        "salary": 0,
+        "requirements": "The job requires you to be based in Moscow (or you should be ready to move to Moscow with the..."
+    },
+    {
+        "name": "Менеджер по работе с партнерами",
+        "salary": 0,
+        "requirements": "Умение презентовать идеи интересно и вдохновляюще. Схожий опыт работы с партнерами от двух лет. Проактивность, способность брать инициативу, предлагать идеи. "
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Опыт работы офис-менеджером, секретарём или администратором. Уверенный пользователь ПК, знание Excel, Word, умение работать с оргтехникой. Грамотная устная и..."
+    },
+    {
+        "name": "Business Development (FinTech) - менеджер развития успешных партнеров",
+        "salary": 0,
+        "requirements": "Опыт B2B продаж и развития бизнеса от 3-х лет, желательно в fintech,insurance или IT. "
+    },
+    {
+        "name": "Менеджер отдела маркетинга Цех85",
+        "salary": 0,
+        "requirements": "Имеет образование в сфере маркетинга и минимальный опыт работы. Сообразительный, быстрый, ответственный и исполнительный. Коммуникабельный, умеющий найти подход к людям. "
+    },
+    {
+        "name": "Менеджер по документообороту",
+        "salary": 0,
+        "requirements": "Внимательность к деталям и аккуратность в работе с документами. Грамотность в устной и письменной речи. Умение работать в команде и..."
+    },
+    {
+        "name": "Менеджер/Оператор call-центра",
+        "salary": 0,
+        "requirements": "Вежливость, коммуникабельность, организованность, пунктуальность, стрессоустойчивость, исполнительность, ответственность. Грамотная устная и письменная деловая речь. Умение работать в режиме многозадачности."
+    },
+    {
+        "name": "Менеджер по работе с клиентом",
+        "salary": 0,
+        "requirements": null
+    },
+    {
+        "name": "Менеджер по подбору персонала",
+        "salary": 0,
+        "requirements": "Нам нужен активный, целеустремлённый и коммуникабельный специалист, способный быстро находить и привлекать кандидатов на массовые вакансии. Опыт работы в HR..."
+    },
+    {
+        "name": "Менеджер по работе с блогерами / Influence-менеджер",
+        "salary": 0,
+        "requirements": "У тебя есть опыт работы с блогерами / в сфере инфлюенс-маркетинга от 1 года (в бьюти-сфере — будет огромным плюсом). "
+    },
+    {
+        "name": "Менеджер отдела активных продаж(без опыта)",
+        "salary": 0,
+        "requirements": "Активная жизненная позиция. Нацеленность на результат. Стремление к личностному и профессиональному развитию. Коммуникабельность и стрессоустойчивость. Умение чётко и грамотно формулировать..."
+    },
+    {
+        "name": "SMM-менеджер/Мобилограф/Контент-мейкер",
+        "salary": 0,
+        "requirements": "Грамотная устная и письменная речь. Опрятный внешний вид. Активная жизненная позиция и позитивное мышление. Честность и внимательность. Многозадачность и исполнительность. "
+    },
+    {
+        "name": "Региональный менеджер",
+        "salary": 0,
+        "requirements": "Высшее образование. Релевантный опыт работы с дистрибьюторами в сегменте FMCG. Умение оценивать риски, анализ нескольких путей решения задачи. "
+    },
+    {
+        "name": "Менеджер по продажам (по работе с клиентами)",
+        "salary": 0,
+        "requirements": "Рассматриваем кандидатов без опыта в продажах. Развитые коммуникативные навыки. Позитивный настрой на жизнь и активная жизненная позиция."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 0,
+        "requirements": "Владение офисными программами ХЛ, Ворд. Личные качества: внимательность, обучаемость. Коммуникабельность, работать в режиме многозадачности."
+    },
+    {
+        "name": "Клиентский менеджер отделения банка",
+        "salary": 0,
+        "requirements": "Имеешь образование среднее и выше. Активно используешь гаджеты. Доброжелателен и готов помогать клиентам."
+    },
+    {
+        "name": "SMM-Менеджер | Контент Менеджер | Бренд одежды WOOGEE",
+        "salary": 2000,
+        "requirements": "Самостоятельность. Опыт работы с контентом и людьми. Организаторские способности. Чувство вкуса. Высокую степень самостоятельности в принятии решений."
+    },
+    {
+        "name": "Менеджер интернет-магазина женской одежды бренда KIARA",
+        "salary": 2000,
+        "requirements": "Активны и любите работать с людьми. Грамотно говорите и пишите. Вежливы и убедительны – с клиентами и со своей командой. "
+    },
+    {
+        "name": "Менеджер",
+        "salary": 2500,
+        "requirements": "Уверенный пользователь ПК. Быть готовым к многозадачности. Целеустремленность, работа на результат. Умение принимать решения. Умение делегировать работу."
+    },
+    {
+        "name": "Менеджер по обработке заявок (удаленно)",
+        "salary": 3000,
+        "requirements": "Опыт работы со звонками будет преимуществом. Готовы рассмотреть кандидатов без опыта работы. Коммуникабельность. Умение эффективно выстраивать и вести диалог. "
+    },
+    {
+        "name": "Специалист по работе с клиентами (офис-менеджер), г. Гомель",
+        "salary": 3000,
+        "requirements": "Высшее образование. Опыт продаж (желательно строительных или отделочных материалов, так как специфика работы - это консультации и расчет таких материалов как..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 3150,
+        "requirements": "Собранный и быстрый, проявляющий интерес к людям и желание им помогать. Опытный пользователь ПК, MS Office (Word, Excel) и умеющий..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 4000,
+        "requirements": "Навыки грамотной устной и письменной речи, умение вести переговоры. Доброжелательность. Коммуникабельность. Целеустремленность. Знание офисных программ. Желателен опыт работы в сфере..."
+    },
+    {
+        "name": "Менеджер, без звонков",
+        "salary": 5000,
+        "requirements": "Что нужнo от вaс: Вниматeльноcть, аккуpaтнocть и жeлание рабoтaть. Обучение с нуля — опыт не требуется. Можно работать из любой точки..."
+    },
+    {
+        "name": "НОЧНОЙ менеджер ресторана",
+        "salary": 9000,
+        "requirements": "Опыт работы менеджером. Уверенный пользователь ПК. Знание кассовой дисциплины iiko. Развитые организаторские способности. Знание стандартов сервиса и умение их внедрять..."
+    },
+    {
+        "name": "Менеджер в чат",
+        "salary": 10000,
+        "requirements": "Наличие телефона, постоянного интернета, грамотная речь и аккаунт в ватсап."
+    },
+    {
+        "name": "Чат-менеджер/оператор",
+        "salary": 15000,
+        "requirements": "Уверенный пользователь пк. Грамотная устная и письменная речь. Наличие ПК смартфона интернета."
+    },
+    {
+        "name": "Ассистент менеджера OZON",
+        "salary": 30000,
+        "requirements": "Знания площадки OZON, которые тебе не терпится внедрить. Крутые кейсы по настройке рекламы на OZON ( желательно кейсы с женской одеждой..."
+    },
+    {
+        "name": "Менеджер по маркетплейсам Wildberries",
+        "salary": 40000,
+        "requirements": "Опыт работы с Wildberries не менее 6 месяцев, успешные кейсы в портфолио. Умение работать с Excel и Google-таблицами. "
+    },
+    {
+        "name": "Travel чат-менеджер",
+        "salary": 46555,
+        "requirements": "Умеете пользоваться компом. Быстро обучаетесь. Грамотно пишете."
+    },
+    {
+        "name": "Оператор call-центра / Менеджер по работе с клиентами (без продаж)",
+        "salary": 55000,
+        "requirements": "Четкая дикция и доброжелательная речь – Вы голос компании! - Хороший домашний интернет. - Компьютер и умение им пользоваться. - Рабочее место без постороннего..."
+    },
+    {
+        "name": "Контент-менеджер VK",
+        "salary": 60000,
+        "requirements": "Eсли у тeбя eсть опыт – отлично! Если нет – всему научим.  Необходимые навыки: Грамотная письменная речь. Быстрая обучаемость. Ответственность и внимательность."
+    },
+    {
+        "name": "Менеджер call-центра",
+        "salary": 65000,
+        "requirements": "Грамотная устная и письменная речь. Уверенный пользователь ПК. Опыт работы в AMOCRM обязателен. Доброжелательность и стрессоустойчивость. Умение работать с большим..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 70000,
+        "requirements": "Опыт работы в качестве секретарем не менее шести месяцев. Уверенный пользователь ПК (Excel, Word), опыт работы с оргтехникой. "
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 70000,
+        "requirements": "Владение навыками работы в таких программах как: Microsoft Word, Microsoft Excel, Microsoft PowerPoint. -Опыт самостоятельного ведения задач и направлений. -"
+    },
+    {
+        "name": "Менеджер-оператор",
+        "salary": 75000,
+        "requirements": "Желательно опыт работы с программами (1С, Битрикс, MS Office), ЭДО. Коммуникабельность, аналитический склад ума, нацеленность на результат. "
+    },
+    {
+        "name": "Администратор сайта/Контент менеджер",
+        "salary": 75000,
+        "requirements": "Высшее образование. Уверенное знание Excel (написание формул, условное форматирование, сводные таблицы), Google таблицы. Опыт работы в 1С, Bitrix( обязательно). "
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 80000,
+        "requirements": "Презентационные и переговорные навыки. Хорошие коммуникативные способности (общение с людьми, легко, доступно и открыто; работа с возражениями). Дисциплинированность."
+    },
+    {
+        "name": "Офис-менеджер/Секретарь",
+        "salary": 80000,
+        "requirements": "Уверенное владение ПК и программами Microsoft Office, Outlook, Excel. Опыт работы с оргтехникой и мини АТС. Знание основ делопроизводства. "
+    },
+    {
+        "name": "Менеджер по работе с клиентами в чатах",
+        "salary": 80000,
+        "requirements": "Грамотную письменную речь и высокий уровень коммуникабельности. Ответственность, внимательность к деталям и клиентоориентированность. Возраст любой."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 80000,
+        "requirements": "Уверенный пользователь ПК. Знание Exel, Word. Навыки самопрезентации."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 90000,
+        "requirements": "Умение работать с большим объемом информации. Уверенный пользователь Microsoft Office, Adobe Acrobat, офисной оргтехники. Знание основ документооборота (обязательно). Высшее образование. "
+    },
+    {
+        "name": "Менеджер по персоналу",
+        "salary": 90000,
+        "requirements": "Опыт работы не менее 1 года в области подбора персонала и кадрового делопроизводства."
+    },
+    {
+        "name": "HR-менеджер (офис)",
+        "salary": 90000,
+        "requirements": "Опыт работы на аналогичной должности от 3-х лет. Опыт в найме, рекрутинге от 2 лет, среднего звена. "
+    },
+    {
+        "name": "Менеджер по работе с клиентами | Тёплые клиенты",
+        "salary": 90000,
+        "requirements": "Работать в CRM (опыт работы в Bitrix24 будет Вашим преимуществом). Опыт работы менеджером по продажам/по работе с клиентами..."
+    },
+    {
+        "name": "Помощник менеджера по маркетплейсам Wildberries",
+        "salary": 95000,
+        "requirements": "Работа с честным знаком (ЧЗ). Опыт работы с WB или Ozon будет преимуществом. Желание учиться и достигать результата. "
+    },
+    {
+        "name": "Менеджер по сладкому счастью",
+        "salary": 95000,
+        "requirements": "Поддерживать порядок на рабочем месте. — Любителя сладкого и общительного человека, которому нравится дарить радость другим. — Творческого, инициативного и ответственного сотрудника. — "
+    },
+    {
+        "name": "Менеджер по снабжению",
+        "salary": 95000,
+        "requirements": "Опыт работы в сфере снабжения или логистики приветствуется. ⦁ Уверенное знание и опыт работы с 1С:Управление торговлей. ⦁ "
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 100000,
+        "requirements": "Исполнительность, пунктуальность, коммуникабельность, внимательность. - Грамотная устная и письменная речь, знание основ деловой переписки и делового общения. - Навыки работы в условиях..."
+    },
+    {
+        "name": "Менеджер по документообороту",
+        "salary": 100000,
+        "requirements": "Знание основ логистики, складских процессов, правил приема ТМЦ, документооборота, первичной документации. Умение выстраивать оптимальные пути доставки и коммуникации. "
+    },
+    {
+        "name": "Административный менеджер",
+        "salary": 100000,
+        "requirements": "ДОЛЖНОСТЬ: Положительные личные и деловые качества, обучаемость, презентабельный внешний вид, мотивация в профессиональной деятельности, навыки работы в социальных сетях, навыки..."
+    },
+    {
+        "name": "Бар-менеджер",
+        "salary": 100000,
+        "requirements": "Опыт разработки кофейных / алкогольных напитков. Успешное портфолио в других заведениях. Опыт управления коллективом от 4х человек. Опыт работы бар..."
+    },
+    {
+        "name": "Менеджер в ритуальный магазин",
+        "salary": 100000,
+        "requirements": "Высшее образование будет вашим преимуществом. Ответственность и желание работать."
+    },
+    {
+        "name": "Секретарь/офис-менеджер",
+        "salary": 105000,
+        "requirements": "Образование высшее или средне-специальное, приветливость, позитивный настрой. Уверенный пользователь ПК, сканер, принтер, факс, знание 1С8, мини-АТС..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 110000,
+        "requirements": "Ответственность. Внимательность. Острый ум. Коммуникабельность. Самостоятельность."
+    },
+    {
+        "name": "Начинающий менеджер home-офис (без опыта)",
+        "salary": 115000,
+        "requirements": "Грамотная речь. Наличие ПК/ноутбука, интернета и тихого места."
+    },
+    {
+        "name": "Менеджер по бронированию в Загородный отель 4* (удалённо)",
+        "salary": 115000,
+        "requirements": "Образование высшее. Опыт работы в сфере гостиничных услуг от 3 лет. Умение работать в команде и в режиме многозадачности. Стрессоустойчивость. "
+    },
+    {
+        "name": "Менеджер отдела снабжения",
+        "salary": 120000,
+        "requirements": "Высшее образование. Опыт работы в продажах, снабжении. Коммуникативные навыки. Мобильность. Легкообучаемость. Права категории В."
+    },
+    {
+        "name": "Менеджер по бронированию",
+        "salary": 120000,
+        "requirements": "Умеет дружить с людьми. «Под небом» — это не работа. Это возможность менять представление о туризме вместе с теми, кто верит..."
+    },
+    {
+        "name": "Менеджер направления",
+        "salary": 120000,
+        "requirements": "Знание программ: Excel, Word, 1С. Ответственность, внимательность, исполнительность."
+    },
+    {
+        "name": "Менеджер по набору персонала на смену",
+        "salary": 120000,
+        "requirements": "Готовность к работе с иностранными гражданами (СНГ). Стрессоустойчивость, ответственность, коммуникабельность. Знание офисных программ: Excel, Word - на хорошем уровне. "
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 120000,
+        "requirements": "Образование: среднее специальное/высшее. Обязателен опыт работы с клиентами, желателен опыт работы в жилищном строительстве. Опыт работы в программах (MS..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 130000,
+        "requirements": "Опыт работы в продажах приветствуется, но не обязателен (готовы обучать!). Коммуникабельность и умение находить общий язык с разными людьми. "
+    },
+    {
+        "name": "Event-менеджер (организатор мероприятий) В офис.",
+        "salary": 137000,
+        "requirements": "Хорошие коммуникативные навыки и умение убеждать. Умение или желание научиться круто рассказывать про продукт. Ориентация на результат и стремление к..."
+    },
+    {
+        "name": "Менеджер интернет-магазина",
+        "salary": 140000,
+        "requirements": "Опыт работы в интернет-магазине или оператором call-центра (не менее 1 года). Грамотную речь, развитый навык общения. "
+    },
+    {
+        "name": "Менеджер по продажам B2B IT",
+        "salary": 140000,
+        "requirements": "NeuroUnit – компания в области AI-автоматизации для бизнеса. Фаундеры: 4+ лет в разработке E-com, 7+ лет в..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 140000,
+        "requirements": "Работа в нашем агентстве — это в первую очередь развитие hard и soft skills. База знаний, библиотека книг, ИПР, курсы, проекты..."
+    },
+    {
+        "name": "Менеджер по продажам керамогранита и керамической плитки",
+        "salary": 150000,
+        "requirements": "Что ты будешь делать? Мы ищем активного, инициативного и харизматичного менеджера с опытом в продажах (особенно круто, если продавал плитку..."
+    },
+    {
+        "name": "Менеджер объектных продаж (строительные материалы).",
+        "salary": 150000,
+        "requirements": "Желание работать, готовность обучаться. Ответственность, дружелюбие и чувство юмора. Умение легко идти на контакт, слушать и убеждать."
+    },
+    {
+        "name": "Менеджер по развитию (сеть фирменных кондитерских магазинов Алёнка)",
+        "salary": 150000,
+        "requirements": "Высшее образование. Релевантный опыт работы от 3 лет. Наличие подтвержденных результатов, профессиональных достижений."
+    },
+    {
+        "name": "СРОЧНО!!!Менеджер в офис",
+        "salary": 150000,
+        "requirements": "Рассмотрим без опыта работы! (опыт работы в общении с клиентами будет преимуществом)."
+    },
+    {
+        "name": "Финансовый менеджер",
+        "salary": 150000,
+        "requirements": "Профильное образование. Опыт составления управленческой отчетности (БДР, БДДС). Знание основ бухгалтерского учета, казначейство, расчет заработной платы. Продвинутый пользователь Excel (формулы..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 150000,
+        "requirements": "Успешный опыт продаж B2B, желательно в промышленной сфере (металлообработка, машиностроение; обучение продукту предусмотрено!). Грамотная речь и развитые навыки..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 150000,
+        "requirements": "Обучим с 0, поддержим на всех этапах, тебе поможет заботливый руководитель."
+    },
+    {
+        "name": "Менеджер по работе с клиентами (ПИТЕР ФМ)",
+        "salary": 150000,
+        "requirements": "Проактивная жизненная позиция. Опыт работы в продажах (рекламы). Желание развиваться в области рекламы. Целенаправленная ориентация на результат. Грамотная устная и..."
+    },
+    {
+        "name": "Менеджер интернет-магазина",
+        "salary": 150000,
+        "requirements": "Имеете опыт работы в продажах (работа в интернет-магазине будет приоритетом). Нацелены на результат и готовы выполнять план по продажам. "
+    },
+    {
+        "name": "Проджект-менеджер / Бизнес-Ассистент / Помощник руководителя",
+        "salary": 160000,
+        "requirements": "У Вас есть амбиции, и Вы хотите стать руководителем в дальнейшем. Готовность постоянно обучаться. Уверенный пользователь GoogleSheets (ВПР и сводные..."
+    },
+    {
+        "name": "Менеджер в ресторан/пляжный комплекс",
+        "salary": 160000,
+        "requirements": "Опыт работы на аналогичной должности от 1 года. Знание стандартов обслуживания. Отличные коммуникативные навыки. Презентабельный внешний вид. Грамотная речь, умение..."
+    },
+    {
+        "name": "SMM-менеджер Депутата Государственной Думы-Председателя Комитета (Cпециалист по социальным сетям)",
+        "salary": 170000,
+        "requirements": "Опыт работы с личным брендом политических деятелей и лидеров общественного мнения будет преимуществом. Успешный опыт создания долгосрочных стратегий развития личного..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 170000,
+        "requirements": "Обучаемость. Знание делового этикета — вам предстоит общение на уровне первых лиц и руководителей компаний. Понимание основ продаж. Знание базовых программ..."
+    },
+    {
+        "name": "Менеджер сети ИТ школ",
+        "salary": 180000,
+        "requirements": "Опыт в прямых продажах. Знание основ качественного сервиса и клиентоориентированности. Умение \"влюбить\" в свой продукт. Творческий подход и насмотренность. "
+    },
+    {
+        "name": "Менеджер ресторана 7300 за смену",
+        "salary": 180000,
+        "requirements": "Высшее образование. Опыт работы менеджером ресторана от 3-х лет СТРОГО в ресторанах премиум-класса. Знание стандартов сервиса и гостеприимства. "
+    },
+    {
+        "name": "Менеджер по закупкам (Китай) / Маркетплейсы, удаленная работа",
+        "salary": 180000,
+        "requirements": "Опыт от 3х лет на аналогичной должности. Опыт работы с китайскими маркетплейсами: 1688, alibaba, taobao и др. "
+    },
+    {
+        "name": "Менеджер сопровождения клиентов (без продаж)",
+        "salary": 190000,
+        "requirements": "Давайте знакомиться! Дисциплинированность. Внимательность. Навыки работы с инструментом. Умение работать с документами."
+    },
+    {
+        "name": "Менеджер по продажам (типография)",
+        "salary": 200000,
+        "requirements": "Ответственность, обучаемость. Коммуникабельность, клиентоориентированность. Нацеленность на результат, желание работать и зарабатывать."
+    },
+    {
+        "name": "Менеджер по продажам (крепежные системы)",
+        "salary": 200000,
+        "requirements": "Опыт работы в продажах приветствуется. Знание рынка строительства приветствуется. Готовность к командировкам по РТ."
+    },
+    {
+        "name": "Менеджер по оптовым продажам",
+        "salary": 200000,
+        "requirements": "Опыт работы менеджером в B2B. Опыт работы в 1С. Грамотная письменная и устная речь, умение договариваться. "
+    },
+    {
+        "name": "Начинающий Менеджер по Продажам (B2B)",
+        "salary": 200000,
+        "requirements": "Опыт работы в продажах (готовы рассмотреть ребят без опыта). Желание зарабатывать выше рынка. Уверенный пользователь ПК (Word, Excel, 1С)."
+    },
+    {
+        "name": "Региональный менеджер по развитию",
+        "salary": 200000,
+        "requirements": "Презентовать бренды компании. Анализировать рынок конкурентов. Иметь высокий уровень самоорганизации, ответственности. Быть готовым к командировкам (60х40, где 40..."
+    },
+    {
+        "name": "Региональный менеджер по оптовым продажам (продвижение ТМ DCK)",
+        "salary": 200000,
+        "requirements": "Опыт B2B продаж строительных материалов, инструмента и оборудования является преимуществом. Знание рынка сбыта (опыт развитие дилерской и дистрибьютерской..."
+    },
+    {
+        "name": "Менеджер по продажам (строительные материалы)",
+        "salary": 200000,
+        "requirements": "Грамотная речь. Опыт успешных продаж в В2В по телефону от 6 месяцев, если нет опыта, мы готовы обучать. "
+    },
+    {
+        "name": "Начинающий специалист/менеджер",
+        "salary": 200000,
+        "requirements": "Ты ответственно и добросовестно готов выполнять поставленные задачи."
+    },
+    {
+        "name": "Менеджер по оптовым продажам",
+        "salary": 200000,
+        "requirements": "Выезжать к клиентам для тестирования продукции и видеть, как твоя работа приносит результат.  Опытного продажника (от 3 лет), который умеет..."
+    },
+    {
+        "name": "Менеджер по продажам (IT оборудование)",
+        "salary": 220000,
+        "requirements": "Желание работать и расти профессионально. ⦁ Опыт работы в смежных сферах – Ваше преимущество! (Даже небольшой опыт в продажах или IT будет..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 220000,
+        "requirements": "Ваша готовность к разъездной работе - 60-70% рабочего времени - регион СКФО. Опыт работы торговым представителем, менеджером по продажам, супервайзером от..."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 230000,
+        "requirements": "Опыт работы в строительном сегменте от 2х лет. Успешный опыт работы в продажах, который ты можешь подтвердить обязателен. "
+    },
+    {
+        "name": "Менеджер зала ожидания в аэропорту г. Шымкент по стандартам сети Lounge Key",
+        "salary": 240000,
+        "requirements": "Опыт работы в сфере общепита (официантом). Внимательность к деталям. Неравнодушие к красоте и уютной атмосфере. Стрессоустойчивость. Знание английского языка на..."
+    },
+    {
+        "name": "Менеджер",
+        "salary": 250000,
+        "requirements": "Знание 1С."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 250000,
+        "requirements": "Опыт работы в продажах – от 1 года (опыт продаж измерительного инструмента не обязателен - НАУЧИМ). - Курсы в области продаж (будут Вашим..."
+    },
+    {
+        "name": "Администратор-менеджер",
+        "salary": 250000,
+        "requirements": "Ты готов много работать, чтобы много зарабатывать. Ты ответственно и добросовестно готов выполнять поставленные задачи. Ты готов к обучению и..."
+    },
+    {
+        "name": "Администратор-менеджер",
+        "salary": 250000,
+        "requirements": "Ты готов много работать, чтобы много зарабатывать. Ты ответственно и добросовестно готов выполнять поставленные задачи. Ты готов к обучению и..."
+    },
+    {
+        "name": "Администратор-менеджер",
+        "salary": 250000,
+        "requirements": "Ты готов много работать, чтобы много зарабатывать. Ты ответственно и добросовестно готов выполнять поставленные задачи. Ты готов к обучению и..."
+    },
+    {
+        "name": "Менеджер по логистике (ЮВАО)",
+        "salary": 250000,
+        "requirements": "Опыт работы в транспортной логистике от 1 года. Опыт работы в АТИ, от 1 года (обязателен)! Опыт работы в международных..."
+    },
+    {
+        "name": "Администратор-менеджер",
+        "salary": 250000,
+        "requirements": "Ты готов много работать, чтобы много зарабатывать. Ты ответственно и добросовестно готов выполнять поставленные задачи. Ты готов к обучению и..."
+    },
+    {
+        "name": "Администратор-менеджер",
+        "salary": 250000,
+        "requirements": "Ты готов много работать, чтобы много зарабатывать. Ты ответственно и добросовестно готов выполнять поставленные задачи. Ты готов к обучению и..."
+    },
+    {
+        "name": "Менеджер пункта выдачи заказов (ПВЗ)",
+        "salary": 260000,
+        "requirements": "Обязательное знание казахского и русского языка. Опыт работы на аналогичной позиции будет преимуществом. Ответственность, внимательность и пунктуальность. Знание ПК на..."
+    },
+    {
+        "name": "Менеджер по работе на маркетплейсе \"Каспи-магазин\"",
+        "salary": 300000,
+        "requirements": "Аналитический склад ума, ответственность, пунктуальность. Опыт работы с кабинетом KASPI не менее года."
+    },
+    {
+        "name": "WhatsApp менеджер в инстаграм магазин",
+        "salary": 300000,
+        "requirements": "Грамотная письменная речь. Свободное владение казахским и русскими языками."
+    },
+    {
+        "name": "Офис-менеджер (Лубянка)",
+        "salary": 350000,
+        "requirements": "Умение работать в режиме многозадачности, умение систематизировать информацию, коммуникабельность, доброжелательность, высокий уровень физической активности. Высшее образование. Английский язык уровень В..."
+    },
+    {
+        "name": "Офис-менеджер",
+        "salary": 350000,
+        "requirements": "Знание казахского и русского языка. Коммуникабельность. Ответственность. Пунктуальность. Знание пк."
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 400000,
+        "requirements": "Развитые коммуникативные навыки. Навыки презентации продукта. Грамотная и четкая речь. Обучаемость."
+    },
+    {
+        "name": "Менеджер по продажам и работе с клиентами",
+        "salary": 450000,
+        "requirements": "Опыт работы в продажах как преимущество. Умение находить подход к клиентам и убеждать их. Отличные коммуникативные навыки и стрессоустойчивость. "
+    },
+    {
+        "name": "Менеджер в Гуанчжоу",
+        "salary": 500000,
+        "requirements": "Умение снимать видео, **или**. - Наличие клиентской базы, **или**. - Навыки поиска и привлечения клиентов. Умение снимать видео, **или**. - Наличие клиентской базы..."
+    },
+    {
+        "name": "Менеджер по кадровому делопроизводству",
+        "salary": 500000,
+        "requirements": "Требуемый опыт работы: от 3 лет. - Опыт построения HR отдела. - Желателен опыт работы в сфере общественного питания. - Отличное знание трудового..."
+    },
+    {
+        "name": "Менеджер по персоналу",
+        "salary": 600000,
+        "requirements": "Опыт работы в HR от 3 лет (опыт в строительной сфере — преимущество). Знание ТК РК, основ кадрового делопроизводства. "
+    },
+    {
+        "name": "Региональный менеджер, г.Тараз",
+        "salary": 750000,
+        "requirements": "Опыт работы в продажах не менее 1 года. Знание рынка кондитерских изделий и хлебопекарен будет рассматриваться как преимущество. "
+    },
+    {
+        "name": "Менеджер по продажам",
+        "salary": 800000,
+        "requirements": "Опыт в розничных продажах. Презентабельный внешний вид. Способность убеждать собеседника. Умение найти подход к клиенту, стрессоустойчивость. Организаторские способности. Хорошая память. "
+    },
+    {
+        "name": "Менеджер по продажам премиальных домов (Агентство премиальной недвижимости)",
+        "salary": 2000000,
+        "requirements": "Опыт в продажах не менее 1 года. Нацеленность на результат. Навыки переговоров. Наличие подтверждающих результатов по продажам. Дисциплинированность."
+    },
+    {
+        "name": "Менеджер по продажам в колл центре",
+        "salary": 20000000,
+        "requirements": "Telefon orqali qiziqish bildirgan mijozlarga ma’lumot berish orqali savdo amalga oshirish. - Savdo va tibbiyot bo‘yicha bepul o‘quv..."
+    }
+]

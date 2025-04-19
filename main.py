@@ -47,8 +47,9 @@ def sorted_salary():
         for vacancy in sort_ascending:
             result.append(
                 {
-                    "name": vacancy.job_title,
+                    "job_title": vacancy.job_title,
                     "salary": vacancy.salary,
+                    "job_link": vacancy.job_link,
                     "requirements": vacancy.requirements,
                 }
             )

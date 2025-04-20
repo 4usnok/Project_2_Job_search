@@ -48,7 +48,7 @@ class CreatedJson(BaseFiles):
                     json.dump(matched_vacancies, new_file, ensure_ascii=False, indent=4)
                 print(
                     f"Сохранено {len(matched_vacancies)} вакансий."
-                )  # Сообщение один раз!
+                )
             else:
                 print("Ничего не найдено.")
 

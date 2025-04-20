@@ -5,14 +5,15 @@ from src.working_with_files import CreatedJson
 from unittest.mock import patch
 
 
+test_path = "data/test_stop_words.json"
 def test_created_new_file():
     """Тестирование основной логики работы метода created_new_file()"""
     with patch("builtins.input", return_value="python"):  # мокаем input
         obj = CreatedJson()
-        obj.stop_words = "test_stop_words.json"  # подменяем путь
+        obj.stop_words = test_path  # подменяем путь
 
         # Создаём тестовый файл
-        with open("test_stop_words.json", "w") as f:
+        with open(test_path, "w") as f:
             json.dump(["python"], f)  # "python" — стоп-слово
 
         result = obj.created_new_file()  # вызываем метод

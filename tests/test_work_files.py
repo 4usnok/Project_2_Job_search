@@ -19,6 +19,11 @@ def test_created_new_file():
         result = obj.created_new_file()  # вызываем метод
         assert result is False  # проверяем
 
+def test_file_new():
+    pass
+
+
+
 def test_removal_of_vacancies():
         # 1. Создаём временный файл с вакансиями
         with tempfile.NamedTemporaryFile(mode="w+", suffix=".json", encoding="utf-8", delete=False) as f:

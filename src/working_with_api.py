@@ -1,4 +1,4 @@
-import json
+from typing import Any
 
 import requests
 
@@ -16,11 +16,13 @@ class WorkingWithApi(BaseApi):
         self.__url = "https://api.hh.ru/vacancies"
         self.__headers = {"User-Agent": "HH-User-Agent"}
         self.__params = {"text": "", "page": 0, "per_page": 100}
-        self.vacancies_api = "data/vacancies.json"
         self.vacancies = []
-        super().__init__()
 
-    def load_vacancies(self, keyword):
+    def get_vacancies(self, keyword: str):
+        """Абстрактный метод для загрузки вакансий"""
+        return self.__get_vac(keyword)
+
+    def __get_vac(self, keyword: Any) -> Any:
         """Приватный метод подключения к API hh.ru"""
         self.__params["text"] = keyword
         while self.__params.get("page") != 20:
@@ -32,14 +34,4 @@ class WorkingWithApi(BaseApi):
                 vacancies = response.json()["items"]
                 self.vacancies.extend(vacancies)
                 self.__params["page"] += 1
-        return self.__params
-
-    def get_vacancies_json(self):
-        """Создание json-файла с api-данными"""
-        with open(self.vacancies_api, "w", encoding="utf-8") as file:  # Запись
-            return json.dump(self.vacancies, file, ensure_ascii=False, indent=2)
-
-
-api_class = WorkingWithApi()
-api_class.load_vacancies("")  # Загружаем вакансии
-api_class.get_vacancies_json()  # Сохраняем новый JSON-файл
+            return self.vacancies

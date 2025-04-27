@@ -1,6 +1,6 @@
 import json
 
-from src.working_with_files import CreatedJson
+from src.working_with_file import CreatedJson
 from src.working_with_vacancies import ToWorkWithVacancies
 from src.working_with_api import WorkingWithApi
 

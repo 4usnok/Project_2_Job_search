@@ -4,6 +4,6 @@ from abc import ABC, abstractmethod
 class BaseApi(ABC):
 
     @abstractmethod
-    def __init__(self):
-        """Абстрактный метод инициализации"""
+    def get_vacancies(self, keyword: str):
+        """Абстрактный метод для загрузки вакансий"""
         pass

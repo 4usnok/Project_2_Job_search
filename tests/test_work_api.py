@@ -1,4 +1,3 @@
-from src.working_with_api import WorkingWithApi
 import unittest
 
 

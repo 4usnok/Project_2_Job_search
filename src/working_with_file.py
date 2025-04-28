@@ -102,7 +102,7 @@ class CreatedJson(BaseFiles):
                     vacancies_list.append(vacancy_data)
 
                 # Сортировка по salary_from (по убыванию)
-                vacancies_list_sorted = sorted(
+                self.vacancies_list_sorted = sorted(
                     vacancies_list,
                     key=lambda x: (
                         x["salary"]["from"]
@@ -115,15 +115,13 @@ class CreatedJson(BaseFiles):
                 with open(self.vacancies_file, "w", encoding="utf-8") as file:
                     json.dump(
                         {
-                            "quantity": len(vacancies_list_sorted),
-                            "vacancies": vacancies_list_sorted,
+                            "quantity": len(self.vacancies_list_sorted),
+                            "vacancies": self.vacancies_list_sorted,
                         },
                         file,
                         ensure_ascii=False,
                         indent=4,
                     )
-
-
 
         except json.JSONDecodeError as e:
             print(f"Ошибка при обработке JSON: {e}")
@@ -131,6 +129,24 @@ class CreatedJson(BaseFiles):
         except KeyError as e:
             print(f"Ошибка в структуре данных вакансии: {e}")
             return False
+
+    def working_with_duplicates(self):
+        """Метод для работы с дубликатами"""
+        if os.path.exists(self.vacancies_file):
+            with open(self.vacancies_file, "r", encoding="utf-8") as file:
+                data = json.load(file)
+                existing_vacancies = data.get("vacancies", [])
+            existing_vacancies.append(
+                {
+                    "quantity": len(self.vacancies_list_sorted),
+                    "vacancies": self.vacancies_list_sorted,
+                }
+            )
+            with open(self.vacancies_file, "w", encoding="utf-8") as file:
+                json.dump({'vacancies': existing_vacancies}, file, ensure_ascii=False, indent=4,)
+        else:
+            with open(self.vacancies_file, "w", encoding="utf-8") as file:
+                json.dump({'vacancies': self.vacancies_list_sorted}, file, ensure_ascii=False, indent=4,)
 
     def del_info_on_vac(self):
         """Метод для удаления информации по вакансиям"""
@@ -198,8 +214,9 @@ def user_interaction():
 
     # Выполнение операций
     obj_vac.add_vac_to_file()
-    obj_vac.del_info_on_vac()
     obj_vac.get_vac_from_file()
+    obj_vac.working_with_duplicates()
+    obj_vac.del_info_on_vac()
 
 if __name__ == "__main__":
     user_interaction()

@@ -1,3 +1,6 @@
+from typing import Any
+
+
 from src.working_with_api import WorkingWithApi
 
 class ToWorkWithVacancies:
@@ -50,11 +53,11 @@ class ToWorkWithVacancies:
             raise TypeError("Можно сравнивать только с объектами ToWorkWithVacancies")
         return self.salary_from > other.salary_from
 
-    def method_for_vac(self):
+    def method_for_vac(self, keyword_2: Any) -> Any:
         """Метод подготавливает вакансии для модуля, который будет добавлять в файл"""
         api_path = WorkingWithApi()
         none_list = []
-        for vac in api_path.get_vacancies("Python"):
+        for vac in api_path.get_vacancies(keyword_2):
             counter = 0
             # Проверка названия
             if self.job_title in vac['name']:
@@ -90,14 +93,18 @@ class ToWorkWithVacancies:
             if counter >= 1:
                 none_list.append(
                     {
-                        "title": vac['name'],
-                        "url": vac['url'],
+                        "title": vac.get('name', {}),
+                        "url": vac.get('url', {}),
+                        "alternate_url": vac.get("alternate_url", {}),
+                        "experience": vac.get("experience", {}),
+                        "employment": vac.get("employment", {}),
+                        "address": vac.get('address', {}),
                         "salary": {
                             "salary_from": vac.get('salary', {}).get('from') if vac and vac.get('salary') else None,
                             "salary_to": vac.get('salary', {}).get('to') if vac and vac.get('salary') else None,
                             "currency": vac.get('salary', {}).get('currency') if vac and vac.get('salary') else None
                         },
-                        "requirement": vac['snippet']['requirement'],
+                        "requirement": vac.get('snippet', {}).get('requirement'),
                         "match_score": counter
                     }
                 )
@@ -109,9 +116,12 @@ class ToWorkWithVacancies:
             result_list.append({
                 "title": vac["title"],
                 "url": vac["url"],
+                "alternate_url": vac["alternate_url"],
+                "experience": vac["experience"],
+                "employment": vac["employment"],
+                "address": vac["address"],
                 "salary": vac["salary"],
                 "requirement": vac["requirement"]
             })
 
         return result_list
-

@@ -1,4 +1,5 @@
 import json
+import os
 
 from src.base_files import BaseFiles
 from src.working_with_vacancies import ToWorkWithVacancies
@@ -12,7 +13,8 @@ class CreatedJson(BaseFiles):
             top_input=None,
             range_from=None,
             range_to=None,
-            range_inp=None
+            range_inp=None,
+            please_input=None
     ):
         """Конструктор класса"""
         super().__init__()
@@ -24,6 +26,7 @@ class CreatedJson(BaseFiles):
         self.range_from = range_from
         self.range_to = range_to
         self.range_inp = range_inp
+        self.please_input = please_input
         self.vac = ToWorkWithVacancies(
             "Python",
             "http://",
@@ -36,7 +39,7 @@ class CreatedJson(BaseFiles):
 
     def add_vac_to_file(self):
         """Метод для добавления вакансий в новый json-файл"""
-        method_class = self.vac.method_for_vac()
+        method_class = self.vac.method_for_vac(self.please_input)
         with open(self.vacancies_file, 'w', encoding="utf-8", ) as file:
             return json.dump(method_class, file, indent=4)
 
@@ -78,14 +81,23 @@ class CreatedJson(BaseFiles):
                 vacancies_list = []
                 for vac in matched_vacancies[:self.top_vacancy]:  # Берём N вакансий
                     vacancy_data = {
-                        "title": vac.get("title"),
-                        "url_json": vac.get("url"),
+                        "title": vac.get("title", {}), # название вакансии
+                        "url_json": vac.get("url", {}), # json-ссылка
+                        "alternate_url": vac.get("alternate_url", {}), # frontend-ссылка
+                        "experience": vac.get("experience", {}).get("name")
+                        if vac.get("experience") else None, # опыт работы
+                        "employment": vac.get("employment", {}).get("name")
+                        if vac.get("employment") else None, # занятость
+                        "address": vac.get("address", {}).get("city")
+                        if vac.get("address") else None, # город
                         "salary": {
-                            "from": vac.get("salary", {}).get("salary_from"),
-                            "to": vac.get("salary", {}).get("salary_to"),
-                            "currency": vac.get("salary", {}).get("currency"),
-                        } if vac.get("salary") else None,
-                        "requirement": vac.get("requirement"),
+                            "from": vac.get("salary", {}).get("salary_from")
+                            if vac.get("salary") else None, # минимальная зарплата
+                            "to": vac.get("salary", {}).get("salary_to")
+                            if vac.get("salary") else None, # максимальная зарплата
+                            "currency": vac.get("salary", {}).get("currency"), # валюта
+                        } if vac.get("salary", {}) else None,
+                        "requirement": vac.get("requirement", {}), # пожелания
                     }
                     vacancies_list.append(vacancy_data)
 
@@ -100,28 +112,24 @@ class CreatedJson(BaseFiles):
                     reverse=True,  # Сортировка по убыванию
                 )
 
-                # Запись в JSON-файл
                 with open(self.vacancies_file, "w", encoding="utf-8") as file:
                     json.dump(
                         {
-                            "quantity": len(matched_vacancies),
-                            "vacancies": vacancies_list_sorted,  # Записываем отсортированный список
+                            "quantity": len(vacancies_list_sorted),
+                            "vacancies": vacancies_list_sorted,
                         },
                         file,
                         ensure_ascii=False,
                         indent=4,
                     )
-            else:
-                print("Ничего не найдено.")
+
+
 
         except json.JSONDecodeError as e:
             print(f"Ошибка при обработке JSON: {e}")
             return False
         except KeyError as e:
             print(f"Ошибка в структуре данных вакансии: {e}")
-            return False
-        except Exception as e:
-            print(f"Неожиданная ошибка: {e}")
             return False
 
     def del_info_on_vac(self):
@@ -147,11 +155,25 @@ class CreatedJson(BaseFiles):
 
 def user_interaction():
     """Точка входа для пользователя"""
-    # Основные параметры поиска
-    search_query = input("Введите поисковый запрос: ")
+    # Основные параметры поиска, которые будут переданы по умолчанию
+    work_api = ToWorkWithVacancies(
+            "Python",
+            "http://",
+            60000,
+            230000,
+            'RUR',
+            "API"
+        )
+
+    # Поиск
+    please_input = input("Введите ключевое слово: ")
+    search_query = input("Введите поисковый запрос по вакансии: ")
     top_input = int(input("Введите количество вакансий для вывода в топ N: "))
 
-    # Упрощенный ввод диапазона зарплат
+    # вызов метода класса ToWorkWithVacancies для поиска вакансий по ключевому слову
+    work_api.method_for_vac(please_input)
+
+    # Ввод диапазона зарплат
     salary_range = input("Введите диапазон зарплат (например: 100000-250000): ").strip()
     if salary_range:
         if '-' in salary_range:
@@ -170,7 +192,8 @@ def user_interaction():
         delete_query=delete_query,
         top_input=top_input,
         range_from=range_from,
-        range_to=range_to
+        range_to=range_to,
+        please_input=please_input
     )
 
     # Выполнение операций

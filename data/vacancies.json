@@ -1,9 +1,13 @@
 {
-    "quantity": 3,
+    "quantity": 32,
     "vacancies": [
         {
             "title": "Java разработчик (Java+SpringBoot+Kotlin)",
             "url_json": "https://api.hh.ru/vacancies/119867664?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119867664",
+            "experience": "От 3 до 6 лет",
+            "employment": "Полная занятость",
+            "address": null,
             "salary": {
                 "from": 200000,
                 "to": 200000,
@@ -14,6 +18,10 @@
         {
             "title": "Программист / разработчик",
             "url_json": "https://api.hh.ru/vacancies/119849707?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119849707",
+            "experience": "От 1 года до 3 лет",
+            "employment": "Полная занятость",
+            "address": "Троицк",
             "salary": {
                 "from": 100000,
                 "to": 100000,
@@ -22,14 +30,1055 @@
             "requirement": "Знание языка программирования <highlighttext>Python</highlighttext>. Кандидат должен обладать уверенным владением языком <highlighttext>Python</highlighttext>, включая понимание основных концепций и синтаксиса. Понимание работы с..."
         },
         {
-            "title": "Разработчик Python (junior+/middle)",
-            "url_json": "https://api.hh.ru/vacancies/119732010?host=hh.ru",
+            "title": "Junior python разработчик (Django, Fast API)",
+            "url_json": "https://api.hh.ru/vacancies/119970695?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119970695",
+            "experience": "Нет опыта",
+            "employment": "Полная занятость",
+            "address": "Москва",
             "salary": {
-                "from": 80000,
-                "to": 200000,
+                "from": 40000,
+                "to": 60000,
                 "currency": "RUR"
             },
-            "requirement": "<highlighttext>Python</highlighttext>, SQL Alchemy, Postgres, SQLite3, PyQt6, pyqtgraph, websocket, threading, multiprocessing, requests, pandas, numpy. - Коммерческий опыт разработки на <highlighttext>Python</highlighttext>..."
+            "requirement": "Базовые знания <highlighttext>Python</highlighttext>. Владение программами: VScode, linux, docker. Базовые знания HTML, CSS, JavaScript. Желание изучать новое и не ограничиваться в..."
+        },
+        {
+            "title": "QA Engineer (Manual + Automation)",
+            "url": "https://api.hh.ru/vacancies/119421418?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119421418",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 170000,
+                "salary_to": 230000,
+                "currency": "RUR"
+            },
+            "requirement": "Опыт работы в тестировании от 3 лет в IT-компаниях (middle/senior-уровень). Высшее техническое (желательно профильное) образование. "
+        },
+        {
+            "title": "Manual QA engineer / Тестировщик",
+            "url": "https://api.hh.ru/vacancies/119786286?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119786286",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 100000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Обеспечение качества разрабатываемого ПО. Опыт работы с подготовкой <highlighttext>тест</highlighttext>-планов, <highlighttext>тест</highlighttext>-кейсов, сценариев тестирования. Опыт тестирования API, Swagger. "
+        },
+        {
+            "title": "Junior backend-разработчик (Python)",
+            "url": "https://api.hh.ru/vacancies/119962582?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119962582",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": null,
+                "salary_to": 100000,
+                "currency": "RUR"
+            },
+            "requirement": null
+        },
+        {
+            "title": "Junior Python developer",
+            "url": "https://api.hh.ru/vacancies/119787879?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119787879",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Новоданиловская набережная",
+                "building": "12",
+                "lat": 55.695281,
+                "lng": 37.625325,
+                "description": null,
+                "raw": "Москва, Новоданиловская набережная, 12",
+                "metro": {
+                    "station_name": "Верхние Котлы",
+                    "line_name": "МЦК",
+                    "station_id": "95.532",
+                    "line_id": "95",
+                    "lat": 55.69,
+                    "lng": 37.618889
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Верхние Котлы",
+                        "line_name": "МЦК",
+                        "station_id": "95.532",
+                        "line_id": "95",
+                        "lat": 55.69,
+                        "lng": 37.618889
+                    },
+                    {
+                        "station_name": "ЗИЛ",
+                        "line_name": "МЦК",
+                        "station_id": "95.531",
+                        "line_id": "95",
+                        "lat": 55.698333,
+                        "lng": 37.648333
+                    },
+                    {
+                        "station_name": "Крымская",
+                        "line_name": "МЦК",
+                        "station_id": "95.533",
+                        "line_id": "95",
+                        "lat": 55.690038,
+                        "lng": 37.605
+                    },
+                    {
+                        "station_name": "Нагатинская",
+                        "line_name": "Серпуховско-Тимирязевская",
+                        "station_id": "9.85",
+                        "line_id": "9",
+                        "lat": 55.682099,
+                        "lng": 37.620917
+                    }
+                ],
+                "id": "17533127"
+            },
+            "salary": {
+                "salary_from": 100000,
+                "salary_to": 130000,
+                "currency": "RUR"
+            },
+            "requirement": "Уверенные знания Python. Опыт работы с unit-<highlighttext>тестами</highlighttext> (Pytest, Mock). Базовые знания построения запросов в БД (SQL, PostgreSQL). "
+        },
+        {
+            "title": "Python-разработчик",
+            "url": "https://api.hh.ru/vacancies/119323345?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119323345",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 250000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "У тебя есть опыт коммерческой разработки на Python от 2 лет. Ты имеешь опыт создания ботов для мессенджеров с нуля..."
+        },
+        {
+            "title": "UX/UI-дизайнер",
+            "url": "https://api.hh.ru/vacancies/119718323?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119718323",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "Новолитовская улица",
+                "building": "15В",
+                "lat": 59.981654,
+                "lng": 30.358385,
+                "description": null,
+                "raw": "Санкт-Петербург, Новолитовская улица, 15В",
+                "metro": {
+                    "station_name": "Выборгская",
+                    "line_name": "Кировско-Выборгская",
+                    "station_id": "14.196",
+                    "line_id": "14",
+                    "lat": 59.970925,
+                    "lng": 30.347408
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Выборгская",
+                        "line_name": "Кировско-Выборгская",
+                        "station_id": "14.196",
+                        "line_id": "14",
+                        "lat": 59.970925,
+                        "lng": 30.347408
+                    },
+                    {
+                        "station_name": "Лесная",
+                        "line_name": "Кировско-Выборгская",
+                        "station_id": "14.195",
+                        "line_id": "14",
+                        "lat": 59.984947,
+                        "lng": 30.344259
+                    },
+                    {
+                        "station_name": "Площадь Мужества",
+                        "line_name": "Кировско-Выборгская",
+                        "station_id": "14.194",
+                        "line_id": "14",
+                        "lat": 59.999828,
+                        "lng": 30.366159
+                    }
+                ],
+                "id": "17118881"
+            },
+            "salary": {
+                "salary_from": 60000,
+                "salary_to": 80000,
+                "currency": "RUR"
+            },
+            "requirement": "Необходимые навыки: - Уверенное владение Figma (компоненты, стили, авто-лейауты) и Illustrator. - Понимание пути пользователя, навыки построения CJM, выявления болевых точек..."
+        },
+        {
+            "title": "Руководитель филиала (Курган)",
+            "url": "https://api.hh.ru/vacancies/119874250?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119874250",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 300000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": null
+        },
+        {
+            "title": "Помощник/ассистент",
+            "url": "https://api.hh.ru/vacancies/119966614?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119966614",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": null,
+                "building": null,
+                "lat": 55.749646,
+                "lng": 37.62368,
+                "description": null,
+                "raw": "Москва",
+                "metro": {
+                    "station_name": "Библиотека им.Ленина",
+                    "line_name": "Сокольническая",
+                    "station_id": "1.4",
+                    "line_id": "1",
+                    "lat": 55.752123,
+                    "lng": 37.610388
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Библиотека им.Ленина",
+                        "line_name": "Сокольническая",
+                        "station_id": "1.4",
+                        "line_id": "1",
+                        "lat": 55.752123,
+                        "lng": 37.610388
+                    },
+                    {
+                        "station_name": "Китай-город",
+                        "line_name": "Таганско-Краснопресненская",
+                        "station_id": "7.51",
+                        "line_id": "7",
+                        "lat": 55.75436,
+                        "lng": 37.633877
+                    },
+                    {
+                        "station_name": "Новокузнецкая",
+                        "line_name": "Замоскворецкая",
+                        "station_id": "2.89",
+                        "line_id": "2",
+                        "lat": 55.742391,
+                        "lng": 37.62928
+                    },
+                    {
+                        "station_name": "Площадь Революции",
+                        "line_name": "Арбатско-Покровская",
+                        "station_id": "3.100",
+                        "line_id": "3",
+                        "lat": 55.756741,
+                        "lng": 37.62236
+                    }
+                ],
+                "id": "18250884"
+            },
+            "salary": {
+                "salary_from": 300000,
+                "salary_to": 400000,
+                "currency": "RUR"
+            },
+            "requirement": "Сразу хотим оговорить, что личный помощник не будет заниматься продажами, фокус личного помощника должен быть сосредоточен на том, чтобы максимально..."
+        },
+        {
+            "title": "Менеджер пресс-парка",
+            "url": "https://api.hh.ru/vacancies/119947900?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119947900",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Кировоградская улица",
+                "building": "23А",
+                "lat": 55.600389,
+                "lng": 37.599004,
+                "description": null,
+                "raw": "Москва, Кировоградская улица, 23А",
+                "metro": {
+                    "station_name": "Улица Академика Янгеля",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.147",
+                    "line_id": "9",
+                    "lat": 55.596753,
+                    "lng": 37.601498
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Улица Академика Янгеля",
+                        "line_name": "Серпуховско-Тимирязевская",
+                        "station_id": "9.147",
+                        "line_id": "9",
+                        "lat": 55.596753,
+                        "lng": 37.601498
+                    }
+                ],
+                "id": "16280421"
+            },
+            "salary": {
+                "salary_from": 150000,
+                "salary_to": 150000,
+                "currency": "RUR"
+            },
+            "requirement": "Образование средне-специальное/высшее (техническое), опыт работы от 3-х лет с автопарком машин (грузовые/легковые), ответственность, исполнительность, дисциплинированность, отличные..."
+        },
+        {
+            "title": "QA Manual Engineer",
+            "url": "https://api.hh.ru/vacancies/119283020?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119283020",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Сергиев Посад",
+                "street": "проспект Красной Армии",
+                "building": "97",
+                "lat": 56.302607,
+                "lng": 38.129576,
+                "description": null,
+                "raw": "Сергиев Посад, проспект Красной Армии, 97",
+                "metro": null,
+                "metro_stations": [],
+                "id": "14691778"
+            },
+            "salary": {
+                "salary_from": null,
+                "salary_to": null,
+                "currency": null
+            },
+            "requirement": "Опыт ручного тестирования от 2-х лет (веб-приложения). - Понимание клиент-серверного взаимодействия (HTTP, API, DevTools). - Опыт работы с Postman..."
+        },
+        {
+            "title": "Java разработчик (Java+SpringBoot+Kotlin)",
+            "url": "https://api.hh.ru/vacancies/119867664?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119867664",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 200000,
+                "salary_to": 200000,
+                "currency": "RUR"
+            },
+            "requirement": "Будет плюсом: - Знание и опыт работы с Python, Apache Airflow и Greenplum. - Опыт написания интеграционных <highlighttext>тестов</highlighttext> с использованием Testcontainers и..."
+        },
+        {
+            "title": "Оператор ввода данных",
+            "url": "https://api.hh.ru/vacancies/119799945?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119799945",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "Измайловский проспект",
+                "building": "18Д",
+                "lat": 59.910244,
+                "lng": 30.311242,
+                "description": null,
+                "raw": "Санкт-Петербург, Измайловский проспект, 18Д",
+                "metro": {
+                    "station_name": "Технологический институт 1",
+                    "line_name": "Кировско-Выборгская",
+                    "station_id": "14.202",
+                    "line_id": "14",
+                    "lat": 59.916512,
+                    "lng": 30.318485
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Технологический институт 1",
+                        "line_name": "Кировско-Выборгская",
+                        "station_id": "14.202",
+                        "line_id": "14",
+                        "lat": 59.916512,
+                        "lng": 30.318485
+                    }
+                ],
+                "id": "7341215"
+            },
+            "salary": {
+                "salary_from": 78000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Готовность к работе, требующей стабильного выполнения однотипных задач с высокой степенью внимательности. Уверенное владение ПК. Умение работать в CRM-системе..."
+        },
+        {
+            "title": "Тестировщик ПО",
+            "url": "https://api.hh.ru/vacancies/119988495?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119988495",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 170000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "3+ лет опыта работы в области QA, включая как ручное, так и автоматизированное тестирование. Опыт работы с системами контроля..."
+        },
+        {
+            "title": "Тестировщик-стажер",
+            "url": "https://api.hh.ru/vacancies/119880525?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119880525",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "2-я Советская улица",
+                "building": "7",
+                "lat": 59.932365,
+                "lng": 30.366048,
+                "description": null,
+                "raw": "Санкт-Петербург, 2-я Советская улица, 7",
+                "metro": {
+                    "station_name": "Площадь Восстания",
+                    "line_name": "Кировско-Выборгская",
+                    "station_id": "14.199",
+                    "line_id": "14",
+                    "lat": 59.930279,
+                    "lng": 30.361069
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Площадь Восстания",
+                        "line_name": "Кировско-Выборгская",
+                        "station_id": "14.199",
+                        "line_id": "14",
+                        "lat": 59.930279,
+                        "lng": 30.361069
+                    }
+                ],
+                "id": "14118527"
+            },
+            "salary": {
+                "salary_from": 46000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Понимание принципов работы систем управления <highlighttext>тест</highlighttext>-кейсами и баг-трекинговых систем. Знание техник составления <highlighttext>тест</highlighttext>-кейсов и опыт его применения..."
+        },
+        {
+            "title": "QA engineer / Тестировщик ПО",
+            "url": "https://api.hh.ru/vacancies/119813667?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119813667",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": null,
+                "street": null,
+                "building": null,
+                "lat": null,
+                "lng": null,
+                "description": null,
+                "raw": null,
+                "metro": {
+                    "station_name": "Окская",
+                    "line_name": "Некрасовская",
+                    "station_id": "98.763",
+                    "line_id": "98",
+                    "lat": 55.72,
+                    "lng": 37.77
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Окская",
+                        "line_name": "Некрасовская",
+                        "station_id": "98.763",
+                        "line_id": "98",
+                        "lat": 55.72,
+                        "lng": 37.77
+                    },
+                    {
+                        "station_name": "Рязанский проспект",
+                        "line_name": "Таганско-Краснопресненская",
+                        "station_id": "7.127",
+                        "line_id": "7",
+                        "lat": 55.716139,
+                        "lng": 37.792694
+                    }
+                ],
+                "id": "12483800"
+            },
+            "salary": {
+                "salary_from": 120000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Опыт тестирования от 2 лет, знание методологий тестирования. Опыт работы с Windows, Linux на уровне продвинутого пользователя. Знание SQL на..."
+        },
+        {
+            "title": "QA Engineer (Platform V Works::TaskTracker)",
+            "url": "https://api.hh.ru/vacancies/119958108?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119958108",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 140000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Имеешь опыт тестирования web-приложений от 2-х лет. Знаешь теорию тестирования и жизненный цикл разработки ПО. Понимаешь работу: HTML..."
+        },
+        {
+            "title": "QA engineer (Специалист по ручному тестированию)",
+            "url": "https://api.hh.ru/vacancies/119881007?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119881007",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": null,
+                "salary_to": null,
+                "currency": null
+            },
+            "requirement": "Понимание принципов работы веб-приложений и мобильных приложений. Знание теории тестирования и техник <highlighttext>тест</highlighttext>-дизайна. Знание что такое API и..."
+        },
+        {
+            "title": "Frontend developer",
+            "url": "https://api.hh.ru/vacancies/119763581?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119763581",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "улица Стромынка",
+                "building": "18с27",
+                "lat": 55.793596,
+                "lng": 37.695735,
+                "description": null,
+                "raw": "Москва, улица Стромынка, 18с27",
+                "metro": {
+                    "station_name": "Сокольники",
+                    "line_name": "Сокольническая",
+                    "station_id": "1.134",
+                    "line_id": "1",
+                    "lat": 55.789282,
+                    "lng": 37.679895
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Сокольники",
+                        "line_name": "Сокольническая",
+                        "station_id": "1.134",
+                        "line_id": "1",
+                        "lat": 55.789282,
+                        "lng": 37.679895
+                    }
+                ],
+                "id": "802196"
+            },
+            "salary": {
+                "salary_from": null,
+                "salary_to": null,
+                "currency": null
+            },
+            "requirement": "Уверенные знания JavaScript/TypeScript (если не знаете TypeScript, то за день разберетесь) и Browser API. Опыт работы с современными фреймворками..."
+        },
+        {
+            "title": "QA Тестировщик ПО",
+            "url": "https://api.hh.ru/vacancies/119820208?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119820208",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Воронеж",
+                "street": "улица Героев Красной Армии",
+                "building": "6",
+                "lat": 51.689086,
+                "lng": 39.221173,
+                "description": null,
+                "raw": "Воронеж, улица Героев Красной Армии, 6",
+                "metro": null,
+                "metro_stations": [],
+                "id": "6664391"
+            },
+            "salary": {
+                "salary_from": 50000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Опыт работы в области тестирования ПО желателен. Практический опыт разработки <highlighttext>тест</highlighttext>-кейсов или тестовых сценариев желателен. Знание SQL. "
+        },
+        {
+            "title": "Личный ассистент руководителя",
+            "url": "https://api.hh.ru/vacancies/119967919?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119967919",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "Долгоозёрная улица",
+                "building": "14к2",
+                "lat": 60.016775,
+                "lng": 30.246051,
+                "description": null,
+                "raw": "Санкт-Петербург, Долгоозёрная улица, 14к2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13512484"
+            },
+            "salary": {
+                "salary_from": 150000,
+                "salary_to": 180000,
+                "currency": "RUR"
+            },
+            "requirement": "Образование: высшее. Наличие загранпаспорта (обязательно). Системность, скорость, проактивность, быстрое понимание задач и четкое их выполнение (внимательность), отсутствие излишних обсуждений, человек..."
+        },
+        {
+            "title": "Менеджер по продажам автомобилей",
+            "url": "https://api.hh.ru/vacancies/115113841?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/115113841",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Челябинск",
+                "street": "улица Кузнецова",
+                "building": "1А",
+                "lat": 55.117504,
+                "lng": 61.360719,
+                "description": null,
+                "raw": "Челябинск, улица Кузнецова, 1А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "3708168"
+            },
+            "salary": {
+                "salary_from": 180000,
+                "salary_to": 250000,
+                "currency": "RUR"
+            },
+            "requirement": "Опыт работы в сфере продаж. Преимуществом будет опыт в автобизнесе. Уверенный пользователь ПК. Грамотная устная и письменная речь, коммуникабельность, навыки..."
+        },
+        {
+            "title": "Разработчик Python",
+            "url": "https://api.hh.ru/vacancies/119822593?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119822593",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Валовая улица",
+                "building": "26",
+                "lat": 55.730639,
+                "lng": 37.62819,
+                "description": null,
+                "raw": "Москва, Валовая улица, 26",
+                "metro": {
+                    "station_name": "Добрынинская",
+                    "line_name": "Кольцевая",
+                    "station_id": "5.36",
+                    "line_id": "5",
+                    "lat": 55.728994,
+                    "lng": 37.622533
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Добрынинская",
+                        "line_name": "Кольцевая",
+                        "station_id": "5.36",
+                        "line_id": "5",
+                        "lat": 55.728994,
+                        "lng": 37.622533
+                    },
+                    {
+                        "station_name": "Павелецкая",
+                        "line_name": "Кольцевая",
+                        "station_id": "5.102",
+                        "line_id": "5",
+                        "lat": 55.731414,
+                        "lng": 37.636294
+                    },
+                    {
+                        "station_name": "Серпуховская",
+                        "line_name": "Серпуховско-Тимирязевская",
+                        "station_id": "9.37",
+                        "line_id": "9",
+                        "lat": 55.726548,
+                        "lng": 37.624792
+                    }
+                ],
+                "id": "11576157"
+            },
+            "salary": {
+                "salary_from": null,
+                "salary_to": null,
+                "currency": null
+            },
+            "requirement": "Высшее образование. Опыт работы в разработке микросервисов на Python. Понимание принципов микросервисной архитектуры. Уверенные знания Python версий 3.9+. "
+        },
+        {
+            "title": "QA Engineer (тестировщик)",
+            "url": "https://api.hh.ru/vacancies/119494171?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119494171",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "улица Пресненский Вал",
+                "building": "27с12А",
+                "lat": 55.771985,
+                "lng": 37.570905,
+                "description": null,
+                "raw": "Москва, улица Пресненский Вал, 27с12А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "3149858"
+            },
+            "salary": {
+                "salary_from": null,
+                "salary_to": 120000,
+                "currency": "RUR"
+            },
+            "requirement": "Понимание тестовой документации (<highlighttext>тест</highlighttext>-кейсы, чек-листы и их отличия). Базовое понимание теории тестирования (виды, типы, техники <highlighttext>тест</highlighttext>-дизайна). "
+        },
+        {
+            "title": "Тестировщик / QA-engineer в IT-компанию",
+            "url": "https://api.hh.ru/vacancies/119140366?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119140366",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Волгоград",
+                "street": "проспект имени В.И. Ленина",
+                "building": "94А",
+                "lat": 48.747034,
+                "lng": 44.549521,
+                "description": null,
+                "raw": "Волгоград, проспект имени В.И. Ленина, 94А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "17798133"
+            },
+            "salary": {
+                "salary_from": 100000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Знание теории тестирования, видов тестирования. Технический английский (чтение). Знание принципов ручного тестирования."
+        },
+        {
+            "title": "Делопроизводитель / Архивариус",
+            "url": "https://api.hh.ru/vacancies/119290390?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119290390",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "7-я Красноармейская улица",
+                "building": "25",
+                "lat": 59.911768,
+                "lng": 30.308915,
+                "description": null,
+                "raw": "Санкт-Петербург, 7-я Красноармейская улица, 25",
+                "metro": {
+                    "station_name": "Технологический институт 2",
+                    "line_name": "Московско-Петроградская",
+                    "station_id": "15.219",
+                    "line_id": "15",
+                    "lat": 59.916512,
+                    "lng": 30.318485
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Технологический институт 2",
+                        "line_name": "Московско-Петроградская",
+                        "station_id": "15.219",
+                        "line_id": "15",
+                        "lat": 59.916512,
+                        "lng": 30.318485
+                    }
+                ],
+                "id": "13767609"
+            },
+            "salary": {
+                "salary_from": 100000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Высшее образование по направлению “Документоведение и архивоведение” или дополнительное профессиональное образование по делопроизводству и архивному делу. Опыт работы с ЭДО..."
+        },
+        {
+            "title": "Java-разработчик",
+            "url": "https://api.hh.ru/vacancies/119828771?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119828771",
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Кутузовский проспект",
+                "building": "32к1",
+                "lat": 55.741404,
+                "lng": 37.531559,
+                "description": null,
+                "raw": "Москва, Кутузовский проспект, 32к1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "15561656"
+            },
+            "salary": {
+                "salary_from": null,
+                "salary_to": 240000,
+                "currency": "RUR"
+            },
+            "requirement": "Опыт от 3-х лет коммерческой разработки. Опыт применения основных методологий (Agile, DevOps и т.п.). Опыт командной разработки (с..."
+        },
+        {
+            "title": "QA тестировщик",
+            "url": "https://api.hh.ru/vacancies/118827903?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/118827903",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "8-я линия Васильевского острова",
+                "building": "25",
+                "lat": 59.939699,
+                "lng": 30.28016,
+                "description": null,
+                "raw": "Санкт-Петербург, 8-я линия Васильевского острова, 25",
+                "metro": null,
+                "metro_stations": [],
+                "id": "11615050"
+            },
+            "salary": {
+                "salary_from": 120000,
+                "salary_to": null,
+                "currency": "RUR"
+            },
+            "requirement": "Имеет опыт работы в области тестирования от 2 лет. Имеет базовые знания и опыт в автоматизации тестирования (будет преимуществом). "
+        },
+        {
+            "title": "Младший специалист по тестированию (Junior QA)",
+            "url": "https://api.hh.ru/vacancies/119658228?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119658228",
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": null,
+            "salary": {
+                "salary_from": 80000,
+                "salary_to": 80000,
+                "currency": "RUR"
+            },
+            "requirement": "Курсы по тестированию/статьи/проф.литература. Понимание структуры web-приложения, клиент-серверной архитектуры. Знание основ SQL. Умение пользоваться консолью разработчика (console..."
+        },
+        {
+            "title": "Junior QA-engineer",
+            "url": "https://api.hh.ru/vacancies/119941275?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/119941275",
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "address": {
+                "city": "Челябинск",
+                "street": "улица Энгельса",
+                "building": "4",
+                "lat": 55.17064,
+                "lng": 61.379593,
+                "description": null,
+                "raw": "Челябинск, улица Энгельса, 4",
+                "metro": null,
+                "metro_stations": [],
+                "id": "17422219"
+            },
+            "salary": {
+                "salary_from": 55000,
+                "salary_to": 100000,
+                "currency": "RUR"
+            },
+            "requirement": "Умение использовать Jira, Git, TeamCity. Уверенное понимание техник <highlighttext>тест</highlighttext>-дизайна. Навык писать простые запросы на SQL (select'ы). "
         }
     ]
 }

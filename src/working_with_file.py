@@ -1,5 +1,4 @@
 import json
-import os
 
 from src.base_files import BaseFiles
 from src.working_with_vacancies import ToWorkWithVacancies
@@ -20,6 +19,7 @@ class CreatedJson(BaseFiles):
         super().__init__()
         self.stop_words = "../data/stop_words.json"
         self.vacancies_file = "../data/vacancies.json"
+        self.new_vac = "../data/new_vac.json"
         self.sorted_vacancy = search_query
         self.delete_vacancy = delete_query
         self.top_vacancy = top_input
@@ -102,7 +102,7 @@ class CreatedJson(BaseFiles):
                     vacancies_list.append(vacancy_data)
 
                 # Сортировка по salary_from (по убыванию)
-                self.vacancies_list_sorted = sorted(
+                vacancies_list_sorted = sorted(
                     vacancies_list,
                     key=lambda x: (
                         x["salary"]["from"]
@@ -111,17 +111,21 @@ class CreatedJson(BaseFiles):
                     ),
                     reverse=True,  # Сортировка по убыванию
                 )
+                try:
+                    with open(self.new_vac, "r", encoding="utf-8") as file:
+                        data = json.load(file)
+                except (FileNotFoundError, json.JSONDecodeError):
+                    data = []
 
-                with open(self.vacancies_file, "w", encoding="utf-8") as file:
-                    json.dump(
-                        {
-                            "quantity": len(self.vacancies_list_sorted),
-                            "vacancies": self.vacancies_list_sorted,
-                        },
-                        file,
-                        ensure_ascii=False,
-                        indent=4,
-                    )
+                # Добавление новых данных
+                data.append({
+                    "quantity": len(vacancies_list_sorted),
+                    "vacancies": vacancies_list_sorted,
+                })
+
+                # Перезапись файла
+                with open(self.new_vac, "w", encoding="utf-8") as file:
+                    json.dump(data, file, ensure_ascii=False, indent=4)
 
         except json.JSONDecodeError as e:
             print(f"Ошибка при обработке JSON: {e}")
@@ -130,42 +134,35 @@ class CreatedJson(BaseFiles):
             print(f"Ошибка в структуре данных вакансии: {e}")
             return False
 
-    def working_with_duplicates(self):
-        """Метод для работы с дубликатами"""
-        if os.path.exists(self.vacancies_file):
-            with open(self.vacancies_file, "r", encoding="utf-8") as file:
-                data = json.load(file)
-                existing_vacancies = data.get("vacancies", [])
-            existing_vacancies.append(
-                {
-                    "quantity": len(self.vacancies_list_sorted),
-                    "vacancies": self.vacancies_list_sorted,
-                }
-            )
-            with open(self.vacancies_file, "w", encoding="utf-8") as file:
-                json.dump({'vacancies': existing_vacancies}, file, ensure_ascii=False, indent=4,)
-        else:
-            with open(self.vacancies_file, "w", encoding="utf-8") as file:
-                json.dump({'vacancies': self.vacancies_list_sorted}, file, ensure_ascii=False, indent=4,)
-
     def del_info_on_vac(self):
         """Метод для удаления информации по вакансиям"""
-        if self.delete_vacancy != "нет".lower():
-            with open(self.vacancies_file, "r", encoding="utf-8") as f:  # Чтение
+        if self.delete_vacancy.lower() != "нет":
+            # Чтение данных из файла
+            with open(self.new_vac, "r", encoding="utf-8") as f:  # Чтение
                 list_with_dict = json.load(f)
-            # Создаем новый список без удаляемой вакансии
-            updated_list = [
-                dict_w_vac
-                for dict_w_vac in list_with_dict
-                if self.delete_vacancy.lower() not in dict_w_vac["title"].lower()
-            ]
-            # Проверяем, действительно ли что-то было удалено
-            if len(updated_list) == len(list_with_dict):
-                print(f"Вакансия '{self.delete_vacancy}' не найдена.")
+            removed = False # Флаг для отслеживания изменений
+            # Проходим по всем блокам данных
+            for block in list_with_dict:
+                # Сохраняем исходное количество вакансий
+                original_count = len(block["vacancies"])
+                # Фильтруем вакансии, оставляя только те, в названии которых нет искомой строки
+                block["vacancies"] = [
+                    vac for vac in block["vacancies"]
+                    if self.delete_vacancy.lower() not in vac["title"].lower()
+                ]
+                # Обновляем количество вакансий в блоке
+                block["quantity"] = len(block["vacancies"])
+                # Проверяем, были ли удалены вакансии
+                if len(block["vacancies"]) != original_count:
+                    removed = True
+
+            if not removed:
+                print(f"Вакансии с названием '{self.delete_vacancy}' не найдены.")
                 return
+
             # Записываем обновленный список обратно в файл
-            with open(self.vacancies_file, "w", encoding="utf-8") as f:
-                json.dump(updated_list, f, ensure_ascii=False, indent=2)
+            with open(self.new_vac, "w", encoding="utf-8") as f:
+                json.dump(list_with_dict, f, ensure_ascii=False, indent=2)
                 print(f"Информация успешно удалена по: '{self.delete_vacancy}'.")
 
 
@@ -215,7 +212,6 @@ def user_interaction():
     # Выполнение операций
     obj_vac.add_vac_to_file()
     obj_vac.get_vac_from_file()
-    obj_vac.working_with_duplicates()
     obj_vac.del_info_on_vac()
 
 if __name__ == "__main__":

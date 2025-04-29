@@ -1,0 +1,235 @@
+[
+  {
+    "quantity": 0,
+    "vacancies": []
+  },
+  {
+    "quantity": 0,
+    "vacancies": []
+  },
+  {
+    "quantity": 5,
+    "vacancies": [
+      {
+        "title": "Продавец-консультант в магазин азиатских и европейских сладостей и напитков",
+        "url_json": "https://api.hh.ru/vacancies/119509280?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/119509280",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": "Москва",
+        "salary": {
+          "from": 75000,
+          "to": 85000,
+          "currency": "RUR"
+        },
+        "requirement": "Опыт работы в сфере продаж или обслуживания клиентов будет преимуществом. Умение работать в команде и находить общий язык с разными..."
+      },
+      {
+        "title": "Продавец-консультант в магазин европейских сладостей (м. Трубная)",
+        "url_json": "https://api.hh.ru/vacancies/119783845?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/119783845",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": "Москва",
+        "salary": {
+          "from": 75000,
+          "to": 85000,
+          "currency": "RUR"
+        },
+        "requirement": "Опыт работы в сфере продаж или обслуживания клиентов будет преимуществом. Умение работать в команде и находить общий язык с разными..."
+      },
+      {
+        "title": "Продавец-кассир (Москва)",
+        "url_json": "https://api.hh.ru/vacancies/119404438?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/119404438",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 57000,
+          "to": 67000,
+          "currency": "RUR"
+        },
+        "requirement": "При себе необходимо иметь паспорт, трудовую книжку и военный билет или приписное свидетельство (для военнообязанных)."
+      },
+      {
+        "title": "Продавец-консультант в магазин Intimissimi / Calzedonia (ТЦ Вегас Кунцево)",
+        "url_json": "https://api.hh.ru/vacancies/119701947?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/119701947",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": "село Немчиновка",
+        "salary": {
+          "from": 44000,
+          "to": 60000,
+          "currency": "RUR"
+        },
+        "requirement": "Общительность. * Энергичность. * Интерес к моде. * Желание работать и развиваться в сфере fashion retail."
+      },
+      {
+        "title": "Продавец-консультант зоотоваров",
+        "url_json": "https://api.hh.ru/vacancies/107166130?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/107166130",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 35000,
+          "to": 50000,
+          "currency": "RUR"
+        },
+        "requirement": "Работать с кассой и документами: будь организованным и внимательным. Что мы ждем от тебя: Интерес к новым знаниям и опыту..."
+      }
+    ]
+  },
+  {
+    "quantity": 5,
+    "vacancies": [
+      {
+        "title": "Тестировщик",
+        "url_json": "https://api.hh.ru/vacancies/120084074?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120084074",
+        "experience": "От 1 года до 3 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 120000,
+          "currency": "RUR"
+        },
+        "requirement": "Опыт тестирования бекенда, фронтенда, API. Опыт проведения <highlighttext>тест</highlighttext>-анализа и <highlighttext>тест</highlighttext>-дизайна. Знание linux команд, умение работать с консолью. "
+      },
+      {
+        "title": "Инженер по ручному тестированию (Middle)",
+        "url_json": "https://api.hh.ru/vacancies/120078068?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120078068",
+        "experience": "От 1 года до 3 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 140000,
+          "currency": "RUR"
+        },
+        "requirement": "Навыки составления блок-схем, интеллект-карт, диаграмм. Разработка и ведение <highlighttext>тест</highlighttext>-кейсов. Работа с Jira или аналогами. Работа с TestRail..."
+      },
+      {
+        "title": "Тестировщик / IT специалист",
+        "url_json": "https://api.hh.ru/vacancies/120063617?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120063617",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 160000,
+          "currency": "RUR"
+        },
+        "requirement": "Внимательность, логическое мышление, усидчивость. - Базовое понимание тестирования, багов, <highlighttext>тест</highlighttext>-кейсов, основ UI/UX. - Готовность к полному рабочему дню (без совмещения..."
+      },
+      {
+        "title": "Тестировщик",
+        "url_json": "https://api.hh.ru/vacancies/120045524?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120045524",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": "Москва",
+        "salary": {
+          "from": 90000,
+          "to": 110000,
+          "currency": "RUR"
+        },
+        "requirement": "Внимательность, аналитический подход и логическое мышление. Способность работать с большим объемом информации и находить несоответствия. Понимание основ жизненного цикла разработки..."
+      },
+      {
+        "title": "QA Engineer / Инженер по тестированию",
+        "url_json": "https://api.hh.ru/vacancies/120088115?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120088115",
+        "experience": "От 3 до 6 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 2000,
+          "to": 4000,
+          "currency": "USD"
+        },
+        "requirement": "Опыт тестирования веб-приложений (фронтенд и backend API). Умение писать <highlighttext>тест</highlighttext>-планы, <highlighttext>тест</highlighttext>-кейсы и отслеживать баги. Базовое понимание JavaScript..."
+      }
+    ]
+  },
+  {
+    "quantity": 5,
+    "vacancies": [
+      {
+        "title": "Тестировщик",
+        "url_json": "https://api.hh.ru/vacancies/120084074?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120084074",
+        "experience": "От 1 года до 3 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 120000,
+          "currency": "RUR"
+        },
+        "requirement": "Опыт тестирования бекенда, фронтенда, API. Опыт проведения <highlighttext>тест</highlighttext>-анализа и <highlighttext>тест</highlighttext>-дизайна. Знание linux команд, умение работать с консолью. "
+      },
+      {
+        "title": "Инженер по ручному тестированию (Middle)",
+        "url_json": "https://api.hh.ru/vacancies/120078068?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120078068",
+        "experience": "От 1 года до 3 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 140000,
+          "currency": "RUR"
+        },
+        "requirement": "Навыки составления блок-схем, интеллект-карт, диаграмм. Разработка и ведение <highlighttext>тест</highlighttext>-кейсов. Работа с Jira или аналогами. Работа с TestRail..."
+      },
+      {
+        "title": "Тестировщик / IT специалист",
+        "url_json": "https://api.hh.ru/vacancies/120063617?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120063617",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 100000,
+          "to": 160000,
+          "currency": "RUR"
+        },
+        "requirement": "Внимательность, логическое мышление, усидчивость. - Базовое понимание тестирования, багов, <highlighttext>тест</highlighttext>-кейсов, основ UI/UX. - Готовность к полному рабочему дню (без совмещения..."
+      },
+      {
+        "title": "Тестировщик",
+        "url_json": "https://api.hh.ru/vacancies/120045524?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120045524",
+        "experience": "Нет опыта",
+        "employment": "Полная занятость",
+        "address": "Москва",
+        "salary": {
+          "from": 90000,
+          "to": 110000,
+          "currency": "RUR"
+        },
+        "requirement": "Внимательность, аналитический подход и логическое мышление. Способность работать с большим объемом информации и находить несоответствия. Понимание основ жизненного цикла разработки..."
+      },
+      {
+        "title": "QA Engineer / Инженер по тестированию",
+        "url_json": "https://api.hh.ru/vacancies/120088115?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120088115",
+        "experience": "От 3 до 6 лет",
+        "employment": "Полная занятость",
+        "address": null,
+        "salary": {
+          "from": 2000,
+          "to": 4000,
+          "currency": "USD"
+        },
+        "requirement": "Опыт тестирования веб-приложений (фронтенд и backend API). Умение писать <highlighttext>тест</highlighttext>-планы, <highlighttext>тест</highlighttext>-кейсы и отслеживать баги. Базовое понимание JavaScript..."
+      }
+    ]
+  }
+]

@@ -17,9 +17,9 @@ class CreatedJson(BaseFiles):
     ):
         """Конструктор класса"""
         super().__init__()
-        self.stop_words = "../data/stop_words.json"
-        self.vacancies_file = "../data/vacancies.json"
-        self.new_vac = "../data/new_vac.json"
+        self.stop_words = "data/stop_words.json"
+        self.vacancies_file = "data/vacancies.json"
+        self.new_vac = "data/new_vac.json"
         self.sorted_vacancy = search_query
         self.delete_vacancy = delete_query
         self.top_vacancy = top_input

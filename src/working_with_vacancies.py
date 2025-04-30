@@ -1,5 +1,3 @@
-from typing import Any
-
 from src.working_with_api import WorkingWithApi
 
 
@@ -62,7 +60,7 @@ class ToWorkWithVacancies:
             raise TypeError("Можно сравнивать только с объектами ToWorkWithVacancies")
         return self.salary_from > other.salary_from
 
-    def method_for_vac(self, keyword_2: Any) -> Any:
+    def method_for_vac(self, keyword_2: str) -> list:
         """Метод подготавливает вакансии для модуля, который будет добавлять в файл"""
         api_path = WorkingWithApi()
         none_list = []

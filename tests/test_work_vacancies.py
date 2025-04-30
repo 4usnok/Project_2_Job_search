@@ -1,43 +1,98 @@
-import unittest
-from src.working_with_vacancies import ToWorkWithVacancies
+import pytest
+from unittest.mock import patch, MagicMock
+from src.working_with_api import WorkingWithApi
+from src.working_with_vacancies import ToWorkWithVacancies  # замените your_module на реальный модуль
 
 
-class TestMethod(unittest.TestCase):
+def test_init_valid():
+    vac = ToWorkWithVacancies(
+        job_title="Python Developer",
+        job_link="https://example.com/job/1",
+        salary_from=1000,
+        salary_to=2000,
+        currency="USD",
+        requirements="Django"
+    )
+    assert vac.job_title == "Python Developer"
+    assert vac.salary_from == 1000
 
-    def test_it(self):
-        self_obj_it = ToWorkWithVacancies(
-            "SMM-менеджер",
-            "https://api.hh.ru/areas/1",
-            170000,
-            185000,
-            "KZT",
-            "Опыт работы с личным брендом политических деятелей и лидеров общественного мнения будет преимуществом."
-        )
-        other_obj_it = ToWorkWithVacancies(
-            "Менеджер по развитию",
-            "https://api.hh.ru/areas/1",
-            150000,
-            155000,
-            "KZT",
-            "Высшее образование. Релевантный опыт работы от 3 лет."
-        )
-        self.assertTrue(self_obj_it > other_obj_it)
 
-    def test_gt(self):
-        self_obj_gt = ToWorkWithVacancies(
-            "Менеджер по работе с клиентами",
-            "https://api.hh.ru/areas/13",
-            145000,
-            200000,
-            "RUR",
-            "Активность, инициативность, мобильность, стрессоустойчивость и доброжелательность."
-        )
-        other_obj_gt = ToWorkWithVacancies(
-            "Старший менеджер",
-            "https://api.hh.ru/areas/44",
-            1000000,
-            900000,
-            "RUR",
-            "Опыт работы в продажах. Развитые коммуникативные навыки. Знание документооборота."
-        )
-        self.assertTrue(self_obj_gt < other_obj_gt)
+@pytest.mark.parametrize("job_title,job_link,requirements,error_msg", [
+    ("", "https://example.com", "req", "Название вакансии не может быть пустым"),
+    ("Job", "", "req", "Ссылка на вакансию не может быть пустой"),
+    ("Job", "https://example.com", "", "Требования не могут быть пустыми"),
+])
+def test_init_empty_fields(job_title, job_link, requirements, error_msg):
+    with pytest.raises(ValueError) as e:
+        ToWorkWithVacancies(job_title, job_link, 1000, 2000, "USD", requirements)
+    assert error_msg in str(e.value)
+
+
+def test_init_invalid_link():
+    with pytest.raises(ValueError):
+        ToWorkWithVacancies("Job", "ftp://badlink.com", 1000, 2000, "USD", "req")
+
+
+@pytest.mark.parametrize("salary_from,salary_to,error_msg", [
+    (0, 2000, "Минимальная зарплата должна быть целым числом больше 0"),
+    (1000, -1, "Максимальная зарплата должна быть целым числом больше 0"),
+    ("1000", 2000, "Минимальная зарплата должна быть целым числом больше 0"),
+])
+def test_init_invalid_salary(salary_from, salary_to, error_msg):
+    with pytest.raises(ValueError) as e:
+        ToWorkWithVacancies("Job", "https://example.com", salary_from, salary_to, "USD", "req")
+    assert error_msg in str(e.value)
+
+
+def test_comparison_operators():
+    vac1 = ToWorkWithVacancies("Job1", "https://example.com/1", 1000, 1500, "USD", "req")
+    vac2 = ToWorkWithVacancies("Job2", "https://example.com/2", 2000, 2500, "USD", "req")
+
+    assert (vac1 < vac2) is True
+    assert (vac2 > vac1) is True
+
+    with pytest.raises(TypeError):
+        _ = vac1 < 123
+
+
+@patch.object(WorkingWithApi, 'get_vacancies')
+def test_method_for_vac(mock_get_vacancies):
+    # Мокаем возвращаемые вакансии
+    mock_get_vacancies.return_value = [
+        {
+            "name": "Python Developer",
+            "url": "https://example.com/job/1",
+            "alternate_url": "",
+            "experience": {},
+            "employment": {},
+            "address": {},
+            "salary": {"from": 1000, "to": 2000, "currency": "USD"},
+            "snippet": {"requirement": "Django"},
+        },
+        {
+            # Вакансия без совпадений
+            "name": "Java Developer",
+            "url": "",
+            "alternate_url": "",
+            "experience": {},
+            "employment": {},
+            "address": {},
+            "salary": None,
+            "snippet": {"requirement": None},
+        },
+    ]
+
+    vac = ToWorkWithVacancies(
+        job_title="Python Developer",
+        job_link="https://example.com/job/1",
+        salary_from=1000,
+        salary_to=2000,
+        currency="USD",
+        requirements="Django"
+    )
+
+    results = vac.method_for_vac("python")
+
+    assert isinstance(results, list)
+    assert len(results) == 1
+    assert results[0]["title"] == "Python Developer"

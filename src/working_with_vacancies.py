@@ -1,12 +1,21 @@
 from typing import Any
 
-
 from src.working_with_api import WorkingWithApi
 
-class ToWorkWithVacancies:
-    __slots__ = ("job_title", "job_link", "salary_from", "salary_to", "currency", "requirement")
 
-    def __init__(self, job_title, job_link, salary_from, salary_to, currency, requirements):
+class ToWorkWithVacancies:
+    __slots__ = (
+        "job_title",
+        "job_link",
+        "salary_from",
+        "salary_to",
+        "currency",
+        "requirement",
+    )
+
+    def __init__(
+        self, job_title, job_link, salary_from, salary_to, currency, requirements
+    ):
         """Конструктор класса:
         :param job_title: название вакансии
         :param job_link: ссылка на вакансию
@@ -60,68 +69,90 @@ class ToWorkWithVacancies:
         for vac in api_path.get_vacancies(keyword_2):
             counter = 0
             # Проверка названия
-            if self.job_title in vac['name']:
+            if self.job_title in vac["name"]:
                 counter += 1
             # Проверка ссылки
-            if self.job_link in vac['url']:
+            if self.job_link in vac["url"]:
                 counter += 1
             # Проверка валюты
-            if vac.get('salary') is not None:
-                salary_data = vac['salary']
-                if 'currency' in salary_data:
-                    vacancy_currency = salary_data['currency']
-                    if vacancy_currency is not None and self.currency == vacancy_currency:
+            if vac.get("salary") is not None:
+                salary_data = vac["salary"]
+                if "currency" in salary_data:
+                    vacancy_currency = salary_data["currency"]
+                    if (
+                        vacancy_currency is not None
+                        and self.currency == vacancy_currency
+                    ):
                         counter += 1
             # Проверка минимальной зарплаты
-            if vac.get('salary') is not None:
-                salary_data = vac['salary']
-                if 'from' in salary_data:
-                    vacancy_from = salary_data['from']
+            if vac.get("salary") is not None:
+                salary_data = vac["salary"]
+                if "from" in salary_data:
+                    vacancy_from = salary_data["from"]
                     if vacancy_from is not None and self.salary_from == vacancy_from:
                         counter += 1
             # Проверка максимальной зарплаты
-            if vac.get('salary') is not None:
-                salary_data = vac['salary']
-                if 'to' in salary_data:
-                    vacancy_to = salary_data['to']
+            if vac.get("salary") is not None:
+                salary_data = vac["salary"]
+                if "to" in salary_data:
+                    vacancy_to = salary_data["to"]
                     if vacancy_to is not None and self.salary_to == vacancy_to:
                         counter += 1
             # Проверка умений кандидата
-            if vac['snippet']['requirement'] is not None and self.requirement in vac['snippet']['requirement']:
+            if (
+                vac["snippet"]["requirement"] is not None
+                and self.requirement in vac["snippet"]["requirement"]
+            ):
                 counter += 1
             # На основе проверок, происходит создание списка словарей
             if counter >= 1:
                 none_list.append(
                     {
-                        "title": vac.get('name', {}),
-                        "url": vac.get('url', {}),
+                        "title": vac.get("name", {}),
+                        "url": vac.get("url", {}),
                         "alternate_url": vac.get("alternate_url", {}),
                         "experience": vac.get("experience", {}),
                         "employment": vac.get("employment", {}),
-                        "address": vac.get('address', {}),
+                        "address": vac.get("address", {}),
                         "salary": {
-                            "salary_from": vac.get('salary', {}).get('from') if vac and vac.get('salary') else None,
-                            "salary_to": vac.get('salary', {}).get('to') if vac and vac.get('salary') else None,
-                            "currency": vac.get('salary', {}).get('currency') if vac and vac.get('salary') else None
+                            "salary_from": (
+                                vac.get("salary", {}).get("from")
+                                if vac and vac.get("salary")
+                                else None
+                            ),
+                            "salary_to": (
+                                vac.get("salary", {}).get("to")
+                                if vac and vac.get("salary")
+                                else None
+                            ),
+                            "currency": (
+                                vac.get("salary", {}).get("currency")
+                                if vac and vac.get("salary")
+                                else None
+                            ),
                         },
-                        "requirement": vac.get('snippet', {}).get('requirement'),
-                        "match_score": counter
+                        "requirement": vac.get("snippet", {}).get("requirement"),
+                        "match_score": counter,
                     }
                 )
 
-        none_list.sort(key=lambda x: x["match_score"], reverse=True) # Сортировка совпадений
+        none_list.sort(
+            key=lambda x: x["match_score"], reverse=True
+        )  # Сортировка совпадений
         # Создание нового списка словарей
         result_list = []
         for vac in none_list:
-            result_list.append({
-                "title": vac["title"],
-                "url": vac["url"],
-                "alternate_url": vac["alternate_url"],
-                "experience": vac["experience"],
-                "employment": vac["employment"],
-                "address": vac["address"],
-                "salary": vac["salary"],
-                "requirement": vac["requirement"]
-            })
+            result_list.append(
+                {
+                    "title": vac["title"],
+                    "url": vac["url"],
+                    "alternate_url": vac["alternate_url"],
+                    "experience": vac["experience"],
+                    "employment": vac["employment"],
+                    "address": vac["address"],
+                    "salary": vac["salary"],
+                    "requirement": vac["requirement"],
+                }
+            )
 
         return result_list

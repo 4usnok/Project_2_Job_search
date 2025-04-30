@@ -3,17 +3,18 @@ import json
 from src.base_files import BaseFiles
 from src.working_with_vacancies import ToWorkWithVacancies
 
+
 class CreatedJson(BaseFiles):
 
     def __init__(
-            self,
-            search_query=None,
-            delete_query=None,
-            top_input=None,
-            range_from=None,
-            range_to=None,
-            range_inp=None,
-            please_input=None
+        self,
+        search_query=None,
+        delete_query=None,
+        top_input=None,
+        range_from=None,
+        range_to=None,
+        range_inp=None,
+        please_input=None,
     ):
         """Конструктор класса"""
         super().__init__()
@@ -27,22 +28,17 @@ class CreatedJson(BaseFiles):
         self.range_to = range_to
         self.range_inp = range_inp
         self.please_input = please_input
-        self.vac = ToWorkWithVacancies(
-            "Python",
-            "http://",
-            60000,
-            230000,
-            'RUR',
-            "API"
-        )
-
+        self.vac = ToWorkWithVacancies("Python", "http://", 60000, 230000, "RUR", "API")
 
     def add_vac_to_file(self):
         """Метод для добавления вакансий в новый json-файл"""
         method_class = self.vac.method_for_vac(self.please_input)
-        with open(self.vacancies_file, 'w', encoding="utf-8", ) as file:
+        with open(
+            self.vacancies_file,
+            "w",
+            encoding="utf-8",
+        ) as file:
             return json.dump(method_class, file, indent=4)
-
 
     def get_vac_from_file(self):
         """Метод для получения вакансий из файла по заданным критериям"""
@@ -62,42 +58,84 @@ class CreatedJson(BaseFiles):
 
             for vacancy in api_vacancies:
                 if self.sorted_vacancy.lower() in vacancy["title"].lower():
-                    matched_vacancies.append(vacancy)  # Сохраняем всю вакансию, а не только имя
+                    matched_vacancies.append(
+                        vacancy
+                    )  # Сохраняем всю вакансию, а не только имя
 
             # Вывод результатов
-            if matched_vacancies and (self.range_from is not None or self.range_to is not None):
+            if matched_vacancies and (
+                self.range_from is not None or self.range_to is not None
+            ):
                 matched_vacancies = [
-                    vac for vac in matched_vacancies
-                    if (salary := vac.get("salary", {})) and  # Проверяем наличие данных о зарплате
-                       (self.range_from is None or  # Если минимальная граница не задана - пропускаем проверку
-                        (salary.get("salary_from") is not None and  # Проверяем что зарплата указана
-                         int(salary["salary_from"]) >= self.range_from)) and  # Проверяем нижнюю границу
-                       (self.range_to is None or  # Если максимальная граница не задана - пропускаем проверку
-                        (salary.get("salary_to") is not None and  # Проверяем что зарплата указана
-                         int(salary["salary_to"]) <= self.range_to))  # Проверяем верхнюю границу
+                    vac
+                    for vac in matched_vacancies
+                    if (
+                        salary := vac.get("salary", {})
+                    )  # Проверяем наличие данных о зарплате
+                    and (
+                        self.range_from
+                        is None  # Если минимальная граница не задана - пропускаем проверку
+                        or (
+                            salary.get("salary_from")
+                            is not None  # Проверяем что зарплата указана
+                            and int(salary["salary_from"]) >= self.range_from
+                        )
+                    )  # Проверяем нижнюю границу
+                    and (
+                        self.range_to
+                        is None  # Если максимальная граница не задана - пропускаем проверку
+                        or (
+                            salary.get("salary_to")
+                            is not None  # Проверяем что зарплата указана
+                            and int(salary["salary_to"]) <= self.range_to
+                        )
+                    )  # Проверяем верхнюю границу
                 ]
 
                 # Подготовка данных для записи
                 vacancies_list = []
-                for vac in matched_vacancies[:self.top_vacancy]:  # Берём N вакансий
+                for vac in matched_vacancies[: self.top_vacancy]:  # Берём N вакансий
                     vacancy_data = {
-                        "title": vac.get("title", {}), # название вакансии
-                        "url_json": vac.get("url", {}), # json-ссылка
-                        "alternate_url": vac.get("alternate_url", {}), # frontend-ссылка
-                        "experience": vac.get("experience", {}).get("name")
-                        if vac.get("experience") else None, # опыт работы
-                        "employment": vac.get("employment", {}).get("name")
-                        if vac.get("employment") else None, # занятость
-                        "address": vac.get("address", {}).get("city")
-                        if vac.get("address") else None, # город
-                        "salary": {
-                            "from": vac.get("salary", {}).get("salary_from")
-                            if vac.get("salary") else None, # минимальная зарплата
-                            "to": vac.get("salary", {}).get("salary_to")
-                            if vac.get("salary") else None, # максимальная зарплата
-                            "currency": vac.get("salary", {}).get("currency"), # валюта
-                        } if vac.get("salary", {}) else None,
-                        "requirement": vac.get("requirement", {}), # пожелания
+                        "title": vac.get("title", {}),  # название вакансии
+                        "url_json": vac.get("url", {}),  # json-ссылка
+                        "alternate_url": vac.get(
+                            "alternate_url", {}
+                        ),  # frontend-ссылка
+                        "experience": (
+                            vac.get("experience", {}).get("name")
+                            if vac.get("experience")
+                            else None
+                        ),  # опыт работы
+                        "employment": (
+                            vac.get("employment", {}).get("name")
+                            if vac.get("employment")
+                            else None
+                        ),  # занятость
+                        "address": (
+                            vac.get("address", {}).get("city")
+                            if vac.get("address")
+                            else None
+                        ),  # город
+                        "salary": (
+                            {
+                                "from": (
+                                    vac.get("salary", {}).get("salary_from")
+                                    if vac.get("salary")
+                                    else None
+                                ),  # минимальная зарплата
+                                "to": (
+                                    vac.get("salary", {}).get("salary_to")
+                                    if vac.get("salary")
+                                    else None
+                                ),  # максимальная зарплата
+                                "currency": vac.get("salary", {}).get(
+                                    "currency"
+                                ),  # валюта
+                            }
+                            if vac.get("salary", {})
+                            else None
+                        ),
+                        "requirement": vac.get("requirement", {}),  # пожелания
                     }
                     vacancies_list.append(vacancy_data)
 
@@ -107,7 +145,9 @@ class CreatedJson(BaseFiles):
                     key=lambda x: (
                         x["salary"]["from"]
                         if x["salary"] and x["salary"]["from"] is not None
-                        else -float("inf")  # Если salary нет или from=None, ставим в конец
+                        else -float(
+                            "inf"
+                        )  # Если salary нет или from=None, ставим в конец
                     ),
                     reverse=True,  # Сортировка по убыванию
                 )
@@ -118,10 +158,12 @@ class CreatedJson(BaseFiles):
                     data = []
 
                 # Добавление новых данных
-                data.append({
-                    "quantity": len(vacancies_list_sorted),
-                    "vacancies": vacancies_list_sorted,
-                })
+                data.append(
+                    {
+                        "quantity": len(vacancies_list_sorted),
+                        "vacancies": vacancies_list_sorted,
+                    }
+                )
 
                 # Перезапись файла
                 with open(self.new_vac, "w", encoding="utf-8") as file:
@@ -140,14 +182,15 @@ class CreatedJson(BaseFiles):
             # Чтение данных из файла
             with open(self.new_vac, "r", encoding="utf-8") as f:  # Чтение
                 list_with_dict = json.load(f)
-            removed = False # Флаг для отслеживания изменений
+            removed = False  # Флаг для отслеживания изменений
             # Проходим по всем блокам данных
             for block in list_with_dict:
                 # Сохраняем исходное количество вакансий
                 original_count = len(block["vacancies"])
                 # Фильтруем вакансии, оставляя только те, в названии которых нет искомой строки
                 block["vacancies"] = [
-                    vac for vac in block["vacancies"]
+                    vac
+                    for vac in block["vacancies"]
                     if self.delete_vacancy.lower() not in vac["title"].lower()
                 ]
                 # Обновляем количество вакансий в блоке

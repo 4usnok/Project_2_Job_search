@@ -7,13 +7,13 @@ def user_interaction():
     print("=== Парсер для работы с вакансиями ===")
     # Основные параметры поиска, которые будут переданы по умолчанию
     work_api = ToWorkWithVacancies(
-            "Python",
-            "http://",
-            60000,
-            230000,
-            'RUR',
-            "API"
-        )
+        "Python",
+        "http://",
+        60000,
+        230000,
+        "RUR",
+        "API"
+    )
 
     # Поиск
     please_input = input("Введите ключевое слово: ")
@@ -26,8 +26,8 @@ def user_interaction():
     # Ввод диапазона зарплат
     salary_range = input("Введите диапазон зарплат (например: 100000-250000): ").strip()
     if salary_range:
-        if '-' in salary_range:
-            range_from, range_to = map(int, salary_range.split('-'))
+        if "-" in salary_range:
+            range_from, range_to = map(int, salary_range.split("-"))
         else:
             range_from = int(salary_range)
             range_to = None
@@ -43,7 +43,7 @@ def user_interaction():
         top_input=top_input,
         range_from=range_from,
         range_to=range_to,
-        please_input=please_input
+        please_input=please_input,
     )
 
     # Выполнение операций
@@ -51,6 +51,6 @@ def user_interaction():
     obj_vac.get_vac_from_file()
     obj_vac.del_info_on_vac()
 
+
 if __name__ == "__main__":
     user_interaction()
-

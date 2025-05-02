@@ -19,11 +19,11 @@ class WorkingWithApi(BaseApi):
         self.vacancies = []
 
     def get_vacancies(self, keyword: str):
-        """Абстрактный метод для загрузки вакансий"""
-        return self.__get_vac(keyword)
+        """Абстрактный метод для загрузки данных о вакансиях"""
+        return self.__get_vacancies(keyword)
 
-    def __get_vac(self, keyword: Any) -> Any:
-        """Приватный метод подключения к API hh.ru"""
+    def __get_vacancies(self, keyword: Any) -> Any:
+        """Приватный метод получения данных о вакансиях через подключение к API hh.ru"""
         self.__params["text"] = keyword
         while self.__params.get("page") != 20:
             response = requests.get(

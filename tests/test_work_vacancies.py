@@ -1,5 +1,5 @@
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from src.working_with_api import WorkingWithApi
 from src.working_with_vacancies import ToWorkWithVacancies  # замените your_module на реальный модуль
 
@@ -91,7 +91,7 @@ def test_method_for_vac(mock_get_vacancies):
         requirements="Django"
     )
 
-    results = vac.method_for_vac("python")
+    results = vac.vac_for_module("python")
 
     assert isinstance(results, list)
     assert len(results) == 1

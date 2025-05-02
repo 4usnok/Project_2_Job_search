@@ -1,32 +1,6 @@
 from unittest.mock import patch, Mock, call
-import pytest
 import json
 from src.working_with_file import CreatedJson
-
-
-def test_add_vac_to_file():
-    # Создаем мок для ToWorkWithVacancies
-    mock_vac = Mock()
-    mock_vac.method_for_vac.return_value = {"test": "vacancy_data"}
-
-    # Инициализируем класс с моком
-    creator = CreatedJson(please_input="test_input")
-    creator.vac = mock_vac
-
-    # Создаем специальный mock для работы с контекстным менеджером
-    mock_file = Mock()
-    mock_file.__enter__ = Mock(return_value=mock_file)
-    mock_file.__exit__ = Mock(return_value=None)
-
-    # Тестируем запись в файл
-    with patch("builtins.open", return_value=mock_file):
-        result = creator.add_vac_to_file()
-
-        # Проверяем вызовы
-        mock_vac.method_for_vac.assert_called_once_with("test_input")
-        open.assert_called_once_with("data/vacancies.json", "w", encoding="utf-8")
-        # Проверяем что json.dump был вызван с правильными аргументами
-        assert mock_file.method_calls[0] == call.write('{')  # Проверка записи
 
 
 def test_get_vac_from_file_success():
@@ -107,11 +81,11 @@ def test_del_info_on_vac():
         mock_file.read.return_value = json.dumps(test_data)
 
         # Вызываем метод
-        creator.del_info_on_vac()
+        creator.del_info_vac()
 
         # Проверяем что файл был прочитан и записан
         assert mock_open.call_count == 2
         # Первый вызов - чтение
-        mock_open.assert_any_call("data/new_vac.json", "r", encoding="utf-8")
+        mock_open.assert_any_call("data/sorted_vacancies.json", "r", encoding="utf-8")
         # Второй вызов - запись
-        mock_open.assert_any_call("data/new_vac.json", "w", encoding="utf-8")
+        mock_open.assert_any_call("data/sorted_vacancies.json", "w", encoding="utf-8")

@@ -60,7 +60,7 @@ class ToWorkWithVacancies:
             raise TypeError("Можно сравнивать только с объектами ToWorkWithVacancies")
         return self.salary_from > other.salary_from
 
-    def method_for_vac(self, keyword_2: str) -> list:
+    def vac_for_module(self, keyword_2: str) -> list:
         """Метод подготавливает вакансии для модуля, который будет добавлять в файл"""
         api_path = WorkingWithApi()
         none_list = []

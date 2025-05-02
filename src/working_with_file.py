@@ -14,25 +14,25 @@ class CreatedJson(BaseFiles):
         range_from=None,
         range_to=None,
         range_inp=None,
-        please_input=None,
+        input_keyword=None,
     ):
         """Конструктор класса"""
         super().__init__()
         self.stop_words = "data/stop_words.json"
-        self.vacancies_file = "data/vacancies.json"
-        self.new_vac = "data/new_vac.json"
+        self.vacancies_file = "data/all_vacancies.json"
+        self.new_vacancies_file = "data/sorted_vacancies.json"
         self.sorted_vacancy = search_query
         self.delete_vacancy = delete_query
         self.top_vacancy = top_input
         self.range_from = range_from
         self.range_to = range_to
         self.range_inp = range_inp
-        self.please_input = please_input
+        self.input_keyword = input_keyword
         self.vac = ToWorkWithVacancies("Python", "http://", 60000, 230000, "RUR", "API")
 
     def add_vac_to_file(self):
         """Метод для добавления вакансий в новый json-файл"""
-        method_class = self.vac.method_for_vac(self.please_input)
+        method_class = self.vac.vac_for_module(self.input_keyword)
         with open(
             self.vacancies_file,
             "w",
@@ -152,7 +152,7 @@ class CreatedJson(BaseFiles):
                     reverse=True,  # Сортировка по убыванию
                 )
                 try:
-                    with open(self.new_vac, "r", encoding="utf-8") as file:
+                    with open(self.new_vacancies_file, "r", encoding="utf-8") as file:
                         data = json.load(file)
                 except (FileNotFoundError, json.JSONDecodeError):
                     data = []
@@ -166,7 +166,7 @@ class CreatedJson(BaseFiles):
                 )
 
                 # Перезапись файла
-                with open(self.new_vac, "w", encoding="utf-8") as file:
+                with open(self.new_vacancies_file, "w", encoding="utf-8") as file:
                     json.dump(data, file, ensure_ascii=False, indent=4)
 
         except json.JSONDecodeError as e:
@@ -176,11 +176,11 @@ class CreatedJson(BaseFiles):
             print(f"Ошибка в структуре данных вакансии: {e}")
             return False
 
-    def del_info_on_vac(self):
+    def del_info_vac(self):
         """Метод для удаления информации по вакансиям"""
         if self.delete_vacancy.lower() != "нет":
             # Чтение данных из файла
-            with open(self.new_vac, "r", encoding="utf-8") as f:  # Чтение
+            with open(self.new_vacancies_file, "r", encoding="utf-8") as f:  # Чтение
                 list_with_dict = json.load(f)
             removed = False  # Флаг для отслеживания изменений
             # Проходим по всем блокам данных
@@ -204,6 +204,6 @@ class CreatedJson(BaseFiles):
                 return
 
             # Записываем обновленный список обратно в файл
-            with open(self.new_vac, "w", encoding="utf-8") as f:
+            with open(self.new_vacancies_file, "w", encoding="utf-8") as f:
                 json.dump(list_with_dict, f, ensure_ascii=False, indent=2)
                 print(f"Информация успешно удалена по: '{self.delete_vacancy}'.")

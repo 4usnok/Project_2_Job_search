@@ -14,6 +14,6 @@ class BaseFiles(ABC):
         pass
 
     @abstractmethod
-    def del_info_on_vac(self):
+    def del_info_vac(self):
         """Абстрактный метод удаления информации по вакансиям"""
         pass

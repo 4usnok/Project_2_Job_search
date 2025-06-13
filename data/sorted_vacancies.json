@@ -1,0 +1,136 @@
+[
+    {
+        "quantity": 0,
+        "vacancies": []
+    },
+    {
+        "quantity": 0,
+        "vacancies": []
+    },
+    {
+        "quantity": 0,
+        "vacancies": []
+    },
+    {
+        "quantity": 5,
+        "vacancies": [
+            {
+                "title": "Продавец-кассир, г. Москва",
+                "url_json": "https://api.hh.ru/vacancies/118825442?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/118825442",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": null,
+                "salary": {
+                    "from": 83000,
+                    "to": 93600,
+                    "currency": "RUR"
+                },
+                "requirement": "Готовые общаться с покупателями. Желающие учиться и нацеленные на результат. Внимательные и доброжелательные."
+            },
+            {
+                "title": "Продавец-консультант в магазин европейских сладостей (м. Трубная)",
+                "url_json": "https://api.hh.ru/vacancies/119783845?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/119783845",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": "Москва",
+                "salary": {
+                    "from": 75000,
+                    "to": 85000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт работы в сфере продаж или обслуживания клиентов будет преимуществом. Умение работать в команде и находить общий язык с разными..."
+            },
+            {
+                "title": "Продавец-консультант в магазин азиатских и европейских сладостей и напитков",
+                "url_json": "https://api.hh.ru/vacancies/119509280?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/119509280",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": "Москва",
+                "salary": {
+                    "from": 75000,
+                    "to": 85000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт работы в сфере продаж или обслуживания клиентов будет преимуществом. Умение работать в команде и находить общий язык с разными..."
+            },
+            {
+                "title": "Продавец-консультант",
+                "url_json": "https://api.hh.ru/vacancies/120132102?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/120132102",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": "Махачкала",
+                "salary": {
+                    "from": 50000,
+                    "to": 100000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт работы в продажах не обязателен. Нацеленность на результат, стремление к росту и развитию. Грамотная речь, аккуратность, образованность. "
+            },
+            {
+                "title": "Продавец-консультант в магазин пряжи",
+                "url_json": "https://api.hh.ru/vacancies/106670338?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/106670338",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": "Москва",
+                "salary": {
+                    "from": 50000,
+                    "to": 90000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт работы в сфере розничных продаж приветствуется. Грамотная устная и письменная речь. Коммуникабельность и умение находить общий язык с клиентами. ‍"
+            }
+        ]
+    },
+    {
+        "quantity": 3,
+        "vacancies": [
+            {
+                "title": "Тестировщик",
+                "url_json": "https://api.hh.ru/vacancies/120084074?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/120084074",
+                "experience": "От 1 года до 3 лет",
+                "employment": "Полная занятость",
+                "address": null,
+                "salary": {
+                    "from": 100000,
+                    "to": 120000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт тестирования бекенда, фронтенда, API. Опыт проведения <highlighttext>тест</highlighttext>-анализа и <highlighttext>тест</highlighttext>-дизайна. Знание linux команд, умение работать с консолью. "
+            },
+            {
+                "title": "Младший специалист по тестированию (Junior QA)",
+                "url_json": "https://api.hh.ru/vacancies/119658228?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/119658228",
+                "experience": "Нет опыта",
+                "employment": "Полная занятость",
+                "address": null,
+                "salary": {
+                    "from": 80000,
+                    "to": 80000,
+                    "currency": "RUR"
+                },
+                "requirement": "Курсы по тестированию/статьи/проф.литература. Понимание структуры web-приложения, клиент-серверной архитектуры. Знание основ SQL. Умение пользоваться консолью разработчика (console..."
+            },
+            {
+                "title": "Тестировщик ПО (Junior QA-инженер)",
+                "url_json": "https://api.hh.ru/vacancies/120077300?host=hh.ru",
+                "alternate_url": "https://hh.ru/vacancy/120077300",
+                "experience": "От 1 года до 3 лет",
+                "employment": "Полная занятость",
+                "address": "Челябинск",
+                "salary": {
+                    "from": 60000,
+                    "to": 70000,
+                    "currency": "RUR"
+                },
+                "requirement": "Опыт тестирования web-приложений. Опыт работы с баг-трекерами. Опыт фиксирования багов и ведения тестовой документации. Опыт ручного тестирования. "
+            }
+        ]
+    }
+]
